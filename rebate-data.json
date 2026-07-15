@@ -1,0 +1,2025 @@
+{
+  "siteName": "ApplianceRebates.com",
+  "dataVersion": "2026-07-15",
+  "programs": [
+    {
+      "id": "cafe",
+      "name": "Caf\u00e9 Express Yourself",
+      "validDates": "See current official rebate form",
+      "color": "#8b5e3c",
+      "models": [
+        {
+          "model": "CFE28TP3MD1",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CFE28TP4MW2",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CFE28TP2MS1",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CGE29DM5TS5",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CGE29DP2TS1",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CGE29DP3TD1",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CGE29DP4TW2",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CVE28DM5NS5",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CVE28DP2NS1",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CVE28DP3ND1",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CVE28DP4NW2",
+          "category": "Standard-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CAE28DM5TS5",
+          "category": "Quad-Door Refrigerator"
+        },
+        {
+          "model": "CHE23DM5WS5",
+          "category": "Quad-Door Refrigerator"
+        },
+        {
+          "model": "CWE19SP2NS1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CWE19SP3ND1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CWE19SP4NW2",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CWE23SP2MS1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CWE23SP3MD1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CWE23SP4MW2",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CYE22TP2MS1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CYE22TP3MD1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CYE22TP4MW2",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CJE23DP2WS1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CJE23DP3WD1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CJE23DP4WW2",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CJE23DM5WS5",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CXE22DP2PS1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CXE22DP3PD1",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CXE22DP4PW2",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CXE22DM5PS5",
+          "category": "Counter-Depth French Door Refrigerator"
+        },
+        {
+          "model": "CZS22MP2NS1",
+          "category": "Side-By-Side Refrigerator"
+        },
+        {
+          "model": "CIC36LP2VS1",
+          "category": "Built-In Refrigerator"
+        },
+        {
+          "model": "CIC36RP2VS1",
+          "category": "Built-In Refrigerator"
+        },
+        {
+          "model": "CIP36NP2VS1",
+          "category": "Built-In Refrigerator"
+        },
+        {
+          "model": "CSB42WP2NS1",
+          "category": "Built-In Refrigerator"
+        },
+        {
+          "model": "CSB42YP2NS1",
+          "category": "Built-In Refrigerator"
+        },
+        {
+          "model": "CSB48WP2NS1",
+          "category": "Built-In Refrigerator"
+        },
+        {
+          "model": "CSB48YP2NS1",
+          "category": "Built-In Refrigerator"
+        },
+        {
+          "model": "CDE06RP2NS1",
+          "category": "Double Drawer Refrigerator"
+        },
+        {
+          "model": "CDE06RP3ND1",
+          "category": "Double Drawer Refrigerator"
+        },
+        {
+          "model": "CDE06RP4NW2",
+          "category": "Double Drawer Refrigerator"
+        },
+        {
+          "model": "CCP06BP2PS1",
+          "category": "Wine & Beverage"
+        },
+        {
+          "model": "CCP06BP3PD1",
+          "category": "Wine & Beverage"
+        },
+        {
+          "model": "CCP06BP4PW2",
+          "category": "Wine & Beverage"
+        },
+        {
+          "model": "CCR06BM2PS5",
+          "category": "Wine & Beverage"
+        },
+        {
+          "model": "CCP06DP2PS1",
+          "category": "Wine & Beverage"
+        },
+        {
+          "model": "CCP06DP4PW2",
+          "category": "Wine & Beverage"
+        },
+        {
+          "model": "CCR06DM2PS5",
+          "category": "Wine & Beverage"
+        },
+        {
+          "model": "UCC15NPRII",
+          "category": "Clear Ice Maker"
+        },
+        {
+          "model": "UNC15NPWII",
+          "category": "Nugget Ice Maker"
+        },
+        {
+          "model": "CKS70DP2NS1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CKS70DP2ZS1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS70DP2NS1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS70DP2ZS1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS70DM2NS5",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS70DM2ZS5",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90DM2NS5",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90DM2ZS5",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90DP2NS1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90DP3ND1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90DP4NW2",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90DP2ZS1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90DP3ZD1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90DP4ZW2",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90FP2NS1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90FP3ND1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90FP4NW2",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90FP2ZS1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90FP3ZD1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS90FP4ZW2",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS92DM2NS5",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTS92DM2ZS5",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CTD70DP2ZS1",
+          "category": "Single Wall Oven"
+        },
+        {
+          "model": "CKD70DP2NS1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CKD70DP2ZS1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD70DP2NS1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90DM2NS5",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90DM2ZS5",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90DP2NS1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90DP3ND1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90DP4NW2",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90DP2ZS1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90DP3ZD1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90DP4ZW2",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90FP2NS1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90FP3ND1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90FP4NW2",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90FP2ZS1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90FP3ZD1",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTD90FP4ZW2",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "CTC912P2NS1",
+          "category": "Wall Oven/Microwave Combo"
+        },
+        {
+          "model": "CEP90301TBB",
+          "category": "Electric Cooktop"
+        },
+        {
+          "model": "CEP90302TSS",
+          "category": "Electric Cooktop"
+        },
+        {
+          "model": "CEP90361TBB",
+          "category": "Electric Cooktop"
+        },
+        {
+          "model": "CEP90362TSS",
+          "category": "Electric Cooktop"
+        },
+        {
+          "model": "CHP90301TBB",
+          "category": "Induction Cooktop"
+        },
+        {
+          "model": "CHP90302TSS",
+          "category": "Induction Cooktop"
+        },
+        {
+          "model": "CHP90362TSS",
+          "category": "Induction Cooktop"
+        },
+        {
+          "model": "CHP90361TBB",
+          "category": "Induction Cooktop"
+        },
+        {
+          "model": "CGP70302NS1",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CGP70362NS1",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CGP95302MS1",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CGP95362MS1",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CGU366P2TS1",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CGU366P3TD1",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CGU366P4TW2",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CGU486P2TS1",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CGU486P3TD1",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CGU486P4TW2",
+          "category": "Gas Cooktop"
+        },
+        {
+          "model": "CTW900P2PS1",
+          "category": "Warming Drawers"
+        },
+        {
+          "model": "CTW900P3PD1",
+          "category": "Warming Drawers"
+        },
+        {
+          "model": "CTW900P4PW2",
+          "category": "Warming Drawers"
+        },
+        {
+          "model": "CES700P2MS1",
+          "category": "Slide-In Electric Ranges With Single Oven"
+        },
+        {
+          "model": "CES700P3MD1",
+          "category": "Slide-In Electric Ranges With Single Oven"
+        },
+        {
+          "model": "CES700P4MW2",
+          "category": "Slide-In Electric Ranges With Single Oven"
+        },
+        {
+          "model": "CHS900P2MS1",
+          "category": "Slide-In Induction Ranges With Single Oven"
+        },
+        {
+          "model": "CHS900P4MW2",
+          "category": "Slide-In Induction Ranges With Single Oven"
+        },
+        {
+          "model": "CHS90XM2NS5",
+          "category": "Slide-In Induction Ranges With Single Oven"
+        },
+        {
+          "model": "CHS90XP2MS1",
+          "category": "Slide-In Induction Ranges With Single Oven"
+        },
+        {
+          "model": "CES750P2MS1",
+          "category": "Slide-In Electric Ranges with Double Oven"
+        },
+        {
+          "model": "CES750P4MW2",
+          "category": "Slide-In Electric Ranges with Double Oven"
+        },
+        {
+          "model": "CHS950P2MS1",
+          "category": "Slide-In Induction Ranges With Double Oven"
+        },
+        {
+          "model": "CHS950P4MW2",
+          "category": "Slide-In Induction Ranges With Double Oven"
+        },
+        {
+          "model": "CHS950P3MD1",
+          "category": "Slide-In Induction Ranges With Double Oven"
+        },
+        {
+          "model": "CGS700M2NS5",
+          "category": "Slide-In Gas Ranges With Single Oven"
+        },
+        {
+          "model": "CGS700P2MS1",
+          "category": "Slide-In Gas Ranges With Single Oven"
+        },
+        {
+          "model": "CGS700P3MD1",
+          "category": "Slide-In Gas Ranges With Single Oven"
+        },
+        {
+          "model": "CGS700P4MW2",
+          "category": "Slide-In Gas Ranges With Single Oven"
+        },
+        {
+          "model": "CGS750P2MS1",
+          "category": "Slide-In Gas Ranges With Double Oven"
+        },
+        {
+          "model": "CGS750P4MW2",
+          "category": "Slide-In Gas Ranges With Double Oven"
+        },
+        {
+          "model": "C2S900P2MS1",
+          "category": "Slide-In Dual-Fuel Range With Single Oven"
+        },
+        {
+          "model": "C2S950P2MS1",
+          "category": "Slide-In Dual-Fuel Range With Double Oven"
+        },
+        {
+          "model": "C2S950P4MW2",
+          "category": "Slide-In Dual-Fuel Range With Double Oven"
+        },
+        {
+          "model": "C2Y366P2TS1",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "C2Y366P3TD1",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "C2Y366P4TW2",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "C2Y366P5TG1",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "C2Y486P2TS1",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "C2Y486P3TD1",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "C2Y486P4TW2",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "CGY366P2TS1",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "CGY366P3TD1",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "CGY366P4TW2",
+          "category": "Commercial Style-Range"
+        },
+        {
+          "model": "CVM517P2RS1",
+          "category": "Over-The-Range Microwaves"
+        },
+        {
+          "model": "CVM517P3RD1",
+          "category": "Over-The-Range Microwaves"
+        },
+        {
+          "model": "CVM517P4RW2",
+          "category": "Over-The-Range Microwaves"
+        },
+        {
+          "model": "CVM519P2PS1",
+          "category": "Over-The-Range Microwaves"
+        },
+        {
+          "model": "CVM521P2MS1",
+          "category": "Over-The-Range Microwaves"
+        },
+        {
+          "model": "CVM721M2NS5",
+          "category": "Over-The-Range Microwaves"
+        },
+        {
+          "model": "UVM9125STSS",
+          "category": "Over-The-Range Microwaves"
+        },
+        {
+          "model": "CSB912P2VS1",
+          "category": "Speedcooking 5-in-1 Wall Ovens and Microwaves"
+        },
+        {
+          "model": "CSB913P2VS1",
+          "category": "Speedcooking 5-in-1 Wall Ovens and Microwaves"
+        },
+        {
+          "model": "CSB913P3VD1",
+          "category": "Speedcooking 5-in-1 Wall Ovens and Microwaves"
+        },
+        {
+          "model": "CSB913P4VW2",
+          "category": "Speedcooking 5-in-1 Wall Ovens and Microwaves"
+        },
+        {
+          "model": "CSB913M2VS5",
+          "category": "Speedcooking 5-in-1 Wall Ovens and Microwaves"
+        },
+        {
+          "model": "CSB923P2VS1",
+          "category": "Speedcooking 5-in-1 Wall Ovens and Microwaves"
+        },
+        {
+          "model": "CSB923P4VW2",
+          "category": "Speedcooking 5-in-1 Wall Ovens and Microwaves"
+        },
+        {
+          "model": "CWB713P2VS1",
+          "category": "Built-In Microwave"
+        },
+        {
+          "model": "CWL112P2RS1",
+          "category": "Built-In Microwave"
+        },
+        {
+          "model": "CWL112P3RD5",
+          "category": "Built-In Microwave"
+        },
+        {
+          "model": "CWL112P4RW5",
+          "category": "Built-In Microwave"
+        },
+        {
+          "model": "CCWK15C1WSS",
+          "category": "Countertop Microwave"
+        },
+        {
+          "model": "CCWK15C1WWM",
+          "category": "Countertop Microwave"
+        },
+        {
+          "model": "CCWK15C1WDS",
+          "category": "Countertop Microwave"
+        },
+        {
+          "model": "CVW73012MSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "CVW73014MWM",
+          "category": "Ventilation"
+        },
+        {
+          "model": "CVW73612MSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "CVW73614MWM",
+          "category": "Ventilation"
+        },
+        {
+          "model": "CVW93043PDS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "CVW93044PWM",
+          "category": "Ventilation"
+        },
+        {
+          "model": "CVW93643PDS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "CVW93644PWM",
+          "category": "Ventilation"
+        },
+        {
+          "model": "CBW36YIEWW6",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVC7300SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVC9300SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVC9360SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVC9420SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVC9480SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW8301SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW8304SPSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW8361SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW8364SPSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW9301SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW93042PSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW9361SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW93642PSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW9484SPSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW7301SWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW7361SWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVI7361SWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVI1036SRSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UBW30YIEWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UBW36YIEWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVD6301DPBB",
+          "category": "Telescopic Downdraft System"
+        },
+        {
+          "model": "UVD6301SPSS",
+          "category": "Telescopic Downdraft System"
+        },
+        {
+          "model": "UVD6361DPBB",
+          "category": "Telescopic Downdraft System"
+        },
+        {
+          "model": "UVD6361SPSS",
+          "category": "Telescopic Downdraft System"
+        },
+        {
+          "model": "CDD220P2WS1",
+          "category": "Single Drawer Dishwasher"
+        },
+        {
+          "model": "CDD220P3WD1",
+          "category": "Single Drawer Dishwasher"
+        },
+        {
+          "model": "CDD220P4WW2",
+          "category": "Single Drawer Dishwasher"
+        },
+        {
+          "model": "CDD420P2TS1",
+          "category": "Double-Drawer Dishwasher"
+        },
+        {
+          "model": "CDD420P3TD1",
+          "category": "Double-Drawer Dishwasher"
+        },
+        {
+          "model": "CDD420P4TW2",
+          "category": "Double-Drawer Dishwasher"
+        },
+        {
+          "model": "CDT828P2VS1",
+          "category": "Dishwasher"
+        },
+        {
+          "model": "CDT858P2VS1",
+          "category": "Dishwasher"
+        },
+        {
+          "model": "CDT858P3VD1",
+          "category": "Dishwasher"
+        },
+        {
+          "model": "CDT858P4VW2",
+          "category": "Dishwasher"
+        },
+        {
+          "model": "CDT888P2VS1",
+          "category": "Dishwasher"
+        },
+        {
+          "model": "CDT888P3VD1",
+          "category": "Dishwasher"
+        },
+        {
+          "model": "CDT888P4VW2",
+          "category": "Dishwasher"
+        },
+        {
+          "model": "CDP888M5VS5",
+          "category": "Dishwasher"
+        },
+        {
+          "model": "CZE24RP2YS1",
+          "category": "Side-By-Side Refrigerator"
+        },
+        {
+          "model": "CZE24RP4YW2",
+          "category": "Side-By-Side Refrigerator"
+        },
+        {
+          "model": "CZE24RP3YD1",
+          "category": "Side-By-Side Refrigerator"
+        },
+        {
+          "model": "CKE24RP2YS1",
+          "category": "Side-By-Side Refrigerator"
+        },
+        {
+          "model": "CKE24RP4YW2",
+          "category": "Side-By-Side Refrigerator"
+        },
+        {
+          "model": "CKE24RP3YD1",
+          "category": "Side-By-Side Refrigerator"
+        },
+        {
+          "model": "CIC36LK6ZI",
+          "category": "Panel-Ready Built-In Refrigerator"
+        },
+        {
+          "model": "CIC36RK6ZII",
+          "category": "Panel-Ready Built-In Refrigerator"
+        },
+        {
+          "model": "CIP36NK6ZII",
+          "category": "Panel-Ready Built-In Refrigerator"
+        },
+        {
+          "model": "CVX36BOX",
+          "category": "Panel-Ready Ventilation"
+        },
+        {
+          "model": "CVX36TAPER",
+          "category": "Panel-Ready Ventilation"
+        },
+        {
+          "model": "CDT858I6ZII",
+          "category": "Panel-Ready Dishwasher"
+        },
+        {
+          "model": "UCG1520NSS",
+          "category": "Built-In Compactor"
+        },
+        {
+          "model": "UCG1510NII",
+          "category": "Built-In Compactor"
+        }
+      ],
+      "tiers": {
+        "2": 100,
+        "3": 200,
+        "4": 400,
+        "5": 900,
+        "6": 1400,
+        "7": 2000,
+        "8": 2500
+      },
+      "rules": {
+        "maxBaseCount": 8,
+        "singleCountCategoryKeywords": [
+          "Countertop",
+          "Over-The-Range",
+          "Ventilation"
+        ],
+        "dishwasherCategoryKeyword": "Dishwasher",
+        "dishwasherCap": 2,
+        "twoPieceDishwasherExclusion": true,
+        "wallOvenCooktopBonus": 200,
+        "commercialStyleRangeBonus": 500
+      },
+      "notes": [
+        "First unit only counts for Countertop, Over-The-Range, and Ventilation categories.",
+        "Dishwashers are capped at two counted units.",
+        "A two-piece Caf\u00e9 package containing a dishwasher receives no base rebate.",
+        "$200 bonus for an eligible wall oven plus eligible cooktop.",
+        "$500 bonus for an eligible Commercial-Style Range."
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "GE Profile Innovation",
+      "validDates": "See current official rebate form",
+      "color": "#375a7f",
+      "models": [
+        {
+          "model": "PAD28BYTFS",
+          "category": "Quad-Door Refrigerators"
+        },
+        {
+          "model": "PAE28BYTFS",
+          "category": "Quad-Door Refrigerators"
+        },
+        {
+          "model": "PHD23BYWFS",
+          "category": "Quad-Door Refrigerators"
+        },
+        {
+          "model": "PGE29BYTFS",
+          "category": "Four-Door Refrigerators"
+        },
+        {
+          "model": "PGD29BYTFS",
+          "category": "Four-Door Refrigerators"
+        },
+        {
+          "model": "PVD28BYNFS",
+          "category": "Four-Door Refrigerators"
+        },
+        {
+          "model": "PXD22BYPFS",
+          "category": "Four-Door Refrigerators"
+        },
+        {
+          "model": "PJE23BYWFS",
+          "category": "Four-Door Refrigerators"
+        },
+        {
+          "model": "PJD23BYWFS",
+          "category": "Four-Door Refrigerators"
+        },
+        {
+          "model": "PVD28HYYFS",
+          "category": "Four-Door Refrigerators"
+        },
+        {
+          "model": "PXD22HYYFS",
+          "category": "Four-Door Refrigerators"
+        },
+        {
+          "model": "PFE28KYNFS",
+          "category": "Three-Door Refrigerators"
+        },
+        {
+          "model": "PWE23KYNFS",
+          "category": "Three-Door Refrigerators"
+        },
+        {
+          "model": "PYE22KYNFS",
+          "category": "Three-Door Refrigerators"
+        },
+        {
+          "model": "PSE25KYHFS",
+          "category": "Side-by-Side Refrigerators"
+        },
+        {
+          "model": "PZS22MYKFS",
+          "category": "Side-by-Side Refrigerators"
+        },
+        {
+          "model": "PSB42YSNSS",
+          "category": "Built-In Refrigerators"
+        },
+        {
+          "model": "PSB48YSNSS",
+          "category": "Built-In Refrigerators"
+        },
+        {
+          "model": "UCC15NPRII",
+          "category": "Undercounter Ice Makers"
+        },
+        {
+          "model": "UNC15NPWII",
+          "category": "Undercounter Ice Makers"
+        },
+        {
+          "model": "PVS06BSPSS",
+          "category": "Beverage/Wine Center"
+        },
+        {
+          "model": "PWS06DSPSS",
+          "category": "Beverage/Wine Center"
+        },
+        {
+          "model": "PHS700AYFS",
+          "category": "Slide-In Induction Ranges"
+        },
+        {
+          "model": "PHS93EYPFS",
+          "category": "Slide-In Induction Ranges"
+        },
+        {
+          "model": "PHS930YPFS",
+          "category": "Slide-In Induction Ranges"
+        },
+        {
+          "model": "PHS93XYPFS",
+          "category": "Slide-In Induction Ranges"
+        },
+        {
+          "model": "PS960YPFS",
+          "category": "Slide-In Radiant Ranges"
+        },
+        {
+          "model": "PSS93BPTS",
+          "category": "Slide-In Radiant Ranges"
+        },
+        {
+          "model": "PSS93YPFS",
+          "category": "Slide-In Radiant Ranges"
+        },
+        {
+          "model": "PGS930YPFS",
+          "category": "Slide-In Gas Ranges"
+        },
+        {
+          "model": "PGS960YPFS",
+          "category": "Slide-In Gas Ranges"
+        },
+        {
+          "model": "P2S930YPFS",
+          "category": "Slide-In Gas Ranges"
+        },
+        {
+          "model": "PB900YVFS",
+          "category": "Free-Standing Radiant Ranges"
+        },
+        {
+          "model": "PB965BPTS",
+          "category": "Free-Standing Radiant Ranges"
+        },
+        {
+          "model": "PB965YPFS",
+          "category": "Free-Standing Radiant Ranges"
+        },
+        {
+          "model": "PRF700AYFS",
+          "category": "Free-Standing Radiant Ranges"
+        },
+        {
+          "model": "PGS930BPTS",
+          "category": "Free-Standing Radiant Ranges"
+        },
+        {
+          "model": "PGB935YPFS",
+          "category": "Free-Standing Gas Ranges"
+        },
+        {
+          "model": "PGB965BPTS",
+          "category": "Free-Standing Gas Ranges"
+        },
+        {
+          "model": "PGB965YPFS",
+          "category": "Free-Standing Gas Ranges"
+        },
+        {
+          "model": "PGF700AYFS",
+          "category": "Free-Standing Gas Ranges"
+        },
+        {
+          "model": "PHP6030DWBB",
+          "category": "Induction Cooktops"
+        },
+        {
+          "model": "PHP6036DWBB",
+          "category": "Induction Cooktops"
+        },
+        {
+          "model": "PHP7030DTBB",
+          "category": "Induction Cooktops"
+        },
+        {
+          "model": "PHP7036DTBB",
+          "category": "Induction Cooktops"
+        },
+        {
+          "model": "PHP9030DTBB",
+          "category": "Induction Cooktops"
+        },
+        {
+          "model": "PHP9030STSS",
+          "category": "Induction Cooktops"
+        },
+        {
+          "model": "PHP9036DTBB",
+          "category": "Induction Cooktops"
+        },
+        {
+          "model": "PHP9036STSS",
+          "category": "Induction Cooktops"
+        },
+        {
+          "model": "PEP7030DTBB",
+          "category": "Radiant Cooktops"
+        },
+        {
+          "model": "PEP7036DTBB",
+          "category": "Radiant Cooktops"
+        },
+        {
+          "model": "PEP9030DTBB",
+          "category": "Radiant Cooktops"
+        },
+        {
+          "model": "PEP9030STSS",
+          "category": "Radiant Cooktops"
+        },
+        {
+          "model": "PEP9036DTBB",
+          "category": "Radiant Cooktops"
+        },
+        {
+          "model": "PEP9036STSS",
+          "category": "Radiant Cooktops"
+        },
+        {
+          "model": "PP9830DRBB",
+          "category": "Radiant Cooktops"
+        },
+        {
+          "model": "PP9830SRSS",
+          "category": "Radiant Cooktops"
+        },
+        {
+          "model": "PGP7030DLBB",
+          "category": "Gas Cooktops"
+        },
+        {
+          "model": "PGP7030SLSS",
+          "category": "Gas Cooktops"
+        },
+        {
+          "model": "PGP7036DLBB",
+          "category": "Gas Cooktops"
+        },
+        {
+          "model": "PGP7036SLSS",
+          "category": "Gas Cooktops"
+        },
+        {
+          "model": "PGP9030SLSS",
+          "category": "Gas Cooktops"
+        },
+        {
+          "model": "PGP9036SLSS",
+          "category": "Gas Cooktops"
+        },
+        {
+          "model": "PGP9830DRBB",
+          "category": "Gas Cooktops"
+        },
+        {
+          "model": "PGP9830SRSS",
+          "category": "Gas Cooktops"
+        },
+        {
+          "model": "PKS7000SNSS",
+          "category": "Single Wall Ovens"
+        },
+        {
+          "model": "PTS7000BNTS",
+          "category": "Single Wall Ovens"
+        },
+        {
+          "model": "PTS7000SNSS",
+          "category": "Single Wall Ovens"
+        },
+        {
+          "model": "PTS700LSNSS",
+          "category": "Single Wall Ovens"
+        },
+        {
+          "model": "PTS700RSNSS",
+          "category": "Single Wall Ovens"
+        },
+        {
+          "model": "PTS9000BNTS",
+          "category": "Single Wall Ovens"
+        },
+        {
+          "model": "PTS9000SNSS",
+          "category": "Single Wall Ovens"
+        },
+        {
+          "model": "PTS9200SNSS",
+          "category": "Single Wall Ovens"
+        },
+        {
+          "model": "PKD7000SNSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD7000BNTS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD7000SNSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD700LSNSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD700RSNSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD9000BNTS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD9000SNSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PKS7000SZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PKD7000SZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTS7000SZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTS7000BZTS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTS700LSZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTS700RSZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTS9000SZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTS9200SZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD7000SZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD7000BZTS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD700LSZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD700RSZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PTD9000SZSS",
+          "category": "Double Wall Ovens"
+        },
+        {
+          "model": "PK7800SKSS",
+          "category": "Wall Oven/Microwave Combo"
+        },
+        {
+          "model": "PT7800SHSS",
+          "category": "Wall Oven/Microwave Combo"
+        },
+        {
+          "model": "PT9800SHSS",
+          "category": "Wall Oven/Microwave Combo"
+        },
+        {
+          "model": "PT9900SWSS",
+          "category": "Wall Oven/Microwave Combo"
+        },
+        {
+          "model": "PSB9100SVSS",
+          "category": "Advantium"
+        },
+        {
+          "model": "PSB9120SVSS",
+          "category": "Advantium"
+        },
+        {
+          "model": "PSB9240SVSS",
+          "category": "Advantium"
+        },
+        {
+          "model": "PKW7000SPSS",
+          "category": "Warming Drawers"
+        },
+        {
+          "model": "PTW9000SPSS",
+          "category": "Warming Drawers"
+        },
+        {
+          "model": "UVC9300SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVC9360SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVC9420SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVC9480SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVI1036SRSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVI7361SWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "PVW1030SWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "PVW1036SWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW7241SNSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW7301SWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW7361SWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW8301SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW8304SPSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW8361SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW8364SPSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW9301SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW93042PSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW9361SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW93642PSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVW9484SPSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UBW30YIEWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UBW36YIEWSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVC7300SLSS",
+          "category": "Ventilation"
+        },
+        {
+          "model": "UVD6301DPBB",
+          "category": "Telescopic Downdraft Systems"
+        },
+        {
+          "model": "UVD6301SPSS",
+          "category": "Telescopic Downdraft Systems"
+        },
+        {
+          "model": "UVD6361DPBB",
+          "category": "Telescopic Downdraft Systems"
+        },
+        {
+          "model": "UVD6361SPSS",
+          "category": "Telescopic Downdraft Systems"
+        },
+        {
+          "model": "PCWK22U1WDD",
+          "category": "Microwave + Trim Kit Combo (Microwave)"
+        },
+        {
+          "model": "PCWK22U1WBB",
+          "category": "Microwave + Trim Kit Combo (Microwave)"
+        },
+        {
+          "model": "PCWK22U1WWW",
+          "category": "Microwave + Trim Kit Combo (Microwave)"
+        },
+        {
+          "model": "PCWK15C1WSS",
+          "category": "Microwave + Trim Kit Combo (Microwave)"
+        },
+        {
+          "model": "PCHK11S1WBB",
+          "category": "Microwave + Trim Kit Combo (Microwave)"
+        },
+        {
+          "model": "PCHK11S1WWW",
+          "category": "Microwave + Trim Kit Combo (Microwave)"
+        },
+        {
+          "model": "PCHK11S1WSS",
+          "category": "Microwave + Trim Kit Combo (Microwave)"
+        },
+        {
+          "model": "JX15BUMPBB",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX15BUMPW",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7227BLTS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7227DLBB",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7227DLWW",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7227ELES",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7227FMDS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7227SLSS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7230BLTS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7230DLBB",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7230DLWW",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7230ELES",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7230FMDS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX7230SLSS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX827BMTS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX827DFBB",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX827DFWW",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX827EFES",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX827FMDS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX827SFS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX830BMTS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX830DFBB",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX830DFWW",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX830EFES",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX830FMDS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX830SFSS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX9152EJES",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX9152SJSS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX9153DJBB",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX9153DJWW",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX9153EJES",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX9153SJSS",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX9152DJBB",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "JX9152DJWW",
+          "category": "Microwave + Trim Kit Combo (Trim Kit)"
+        },
+        {
+          "model": "PSA9120SPSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9005BLTS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9005SJSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9179BRTS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9179DRBB",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9179DRWW",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9179SRSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9215SKSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9225SRSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "UVM9125STSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "UVM9125DYWW",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "UVM9125DYBB",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9005RYSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9179RYSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9215RYSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PVM9225RYSS",
+          "category": "Over-the-Range Microwave Ovens"
+        },
+        {
+          "model": "PWL1126SWSS",
+          "category": "Microwave Drawer"
+        },
+        {
+          "model": "PWB7030SVSS",
+          "category": "Built-In Microwave/Convection Oven"
+        },
+        {
+          "model": "PDP715SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT715SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDP755SBVTS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDP755SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT755SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT755SBVTS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDP795SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT795SBVTS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT795SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT145SGLBB",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT145SGLWW",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT145SSLSS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT715SIYII",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDD415PYYFS",
+          "category": "Double-Drawer Dishwasher"
+        },
+        {
+          "model": "POE29QYYFS",
+          "category": "Side-by-Side Refrigerators"
+        },
+        {
+          "model": "PKE24QYYFS",
+          "category": "Side-by-Side Refrigerators"
+        },
+        {
+          "model": "PSE28QYYFS",
+          "category": "Side-by-Side Refrigerators"
+        },
+        {
+          "model": "PZE24QYYFS",
+          "category": "Side-by-Side Refrigerators"
+        },
+        {
+          "model": "PTS6000SNSS",
+          "category": "Single Wall Ovens"
+        },
+        {
+          "model": "PCST22U1WSS",
+          "category": "Microwave + Trim Kit Combo"
+        }
+      ],
+      "tiers": {
+        "4": 400,
+        "5": 750,
+        "6": 1100,
+        "7": 1500,
+        "8": 2000
+      },
+      "rules": {
+        "maxBaseCount": 8,
+        "singleCountCategoryKeywords": [
+          "Microwave",
+          "Ventilation"
+        ]
+      },
+      "notes": [
+        "First unit only counts for Microwave and Ventilation categories."
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "GE Commercial Laundry Pair",
+      "validDates": "July 1, 2026 \u2013 September 1, 2026",
+      "color": "#28785c",
+      "models": [
+        {
+          "model": "GTW525ACWWB",
+          "category": "Washer",
+          "payout": 150
+        },
+        {
+          "model": "GTX52EASPWB",
+          "category": "Dryer",
+          "payout": 150
+        },
+        {
+          "model": "GTX52GASPWB",
+          "category": "Dryer",
+          "payout": 150
+        }
+      ],
+      "tiers": {},
+      "rules": {
+        "washer": "GTW525ACWWB",
+        "dryers": [
+          "GTX52EASPWB",
+          "GTX52GASPWB"
+        ],
+        "payout": 150,
+        "limit": 1
+      },
+      "notes": [
+        "$150 requires GTW525ACWWB plus one qualifying dryer.",
+        "Limit one rebate per household."
+      ]
+    },
+    {
+      "id": "monogram",
+      "name": "Monogram Delivery & Installation",
+      "validDates": "July 1, 2026 \u2013 September 30, 2026",
+      "color": "#5e4b8b",
+      "models": [
+        {
+          "model": "ZIC303NPPII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIK303NPPII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIW303NPPII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIF181NBRII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIF241NBRII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIF181NPNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIF301NBRII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIF361NBRII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIF241NPNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIF301NPNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIF361NPRII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIP364NBVII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIP364IPVII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIC363NBVLH",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIC363IPVLH",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIC363NBVRH",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIC363IPVRH",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIR241NBRII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIR301NBRII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIW241NBWII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIR241NPNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIR361NBRII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIR301NPNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIR361NPRII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZISB360DNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIS420NNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZISB420DNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZIS480NNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZISB480DNII",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZISS360DNSS",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZISS420NNSS",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZISS420DNSS",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZISS480NNSS",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        },
+        {
+          "model": "ZISS480DNSS",
+          "category": "Built-In Refrigerator - Delivery & Installation Only",
+          "payout": 300
+        }
+      ],
+      "tiers": {},
+      "rules": {
+        "payout": 300,
+        "limit": 1
+      },
+      "notes": [
+        "$300 is specifically toward delivery and installation.",
+        "One qualifying built-in refrigerator required.",
+        "Limit one rebate per household."
+      ]
+    }
+  ]
+}
