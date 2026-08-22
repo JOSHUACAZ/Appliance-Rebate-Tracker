@@ -1,4 +1,4 @@
-const APP_BUILD_VERSION = '2026.08.21.1';
+const APP_BUILD_VERSION = '2026.08.21.2';
 
 async function checkForSiteUpdate() {
   try {
@@ -27,6 +27,8 @@ const $ = id => document.getElementById(id);
 const modelsInput = $('modelsInput');
 let lastResults = {};
 let lastActivePrograms = [];
+let autocompleteItems = [];
+let autocompleteIndex = -1;
 
 $('calculateBtn').onclick = calculate;
 $('clearBtn').onclick = () => {
@@ -36,7 +38,99 @@ $('clearBtn').onclick = () => {
 };
 $('printBtn').onclick = () => window.print();
 $('printFormsBtn').onclick = printEligibleForms;
-modelsInput.addEventListener('input',()=>{$('modelCount').textContent=parseModels().length+' models entered'});
+modelsInput.addEventListener('input',()=>{$('modelCount').textContent=parseModels().length+' models entered';updateAutocomplete();});
+modelsInput.addEventListener('keydown',handleAutocompleteKeydown);
+modelsInput.addEventListener('click',updateAutocomplete);
+modelsInput.addEventListener('keyup',e=>{if(!['ArrowUp','ArrowDown','Enter','Escape'].includes(e.key))updateAutocomplete();});
+document.addEventListener('click',e=>{if(!e.target.closest('.model-entry-wrap'))hideAutocomplete();});
+
+function currentTokenInfo(){
+  const value=modelsInput.value, caret=modelsInput.selectionStart ?? value.length;
+  let start=caret,end=caret;
+  while(start>0&&!/[\s,;]/.test(value[start-1]))start--;
+  while(end<value.length&&!/[\s,;]/.test(value[end]))end++;
+  return {raw:value.slice(start,caret),normalized:norm(value.slice(start,caret)),start,end,caret};
+}
+
+function autocompleteUniverse(){
+  const programs=activePrograms(),map=new Map();
+  for(const p of programs){
+    for(const x of p.models||[]){
+      if(!map.has(x.model)) map.set(x.model,{model:x.model,categories:new Set(),programs:new Set()});
+      const item=map.get(x.model);
+      if(x.category) item.categories.add(x.category);
+      item.programs.add(shortName(p));
+    }
+  }
+  return [...map.values()].map(x=>({...x,categories:[...x.categories],programs:[...x.programs]}));
+}
+
+function updateAutocomplete(){
+  const token=currentTokenInfo();
+  if(token.normalized.length<2){hideAutocomplete();return;}
+  const entered=new Set(parseModels());
+  entered.delete(token.normalized);
+  const universe=autocompleteUniverse();
+  let matches=universe.filter(x=>x.model.startsWith(token.normalized)&&!entered.has(x.model));
+  if(matches.length<8){
+    matches=matches.concat(universe.filter(x=>!x.model.startsWith(token.normalized)&&x.model.includes(token.normalized)&&!entered.has(x.model)&&!matches.some(m=>m.model===x.model)));
+  }
+  autocompleteItems=matches.slice(0,8);
+  autocompleteIndex=autocompleteItems.length?0:-1;
+  renderAutocomplete();
+}
+
+function renderAutocomplete(){
+  const box=$('autocompleteBox');
+  if(!autocompleteItems.length){
+    box.classList.remove('hidden');
+    box.innerHTML='<div class="autocomplete-empty">No matching eligible models</div>';
+    return;
+  }
+  box.classList.remove('hidden');
+  box.innerHTML=autocompleteItems.map((x,i)=>`<button type="button" class="autocomplete-item ${i===autocompleteIndex?'active':''}" data-index="${i}" role="option" aria-selected="${i===autocompleteIndex}"><span class="autocomplete-model">${x.model}</span><span class="autocomplete-meta">${x.categories.slice(0,2).join(' / ')} · ${x.programs.slice(0,2).join(' + ')}${x.programs.length>2?' + more':''}</span></button>`).join('');
+  box.querySelectorAll('.autocomplete-item').forEach(b=>{b.onmousedown=e=>{e.preventDefault();chooseAutocomplete(Number(b.dataset.index));};});
+}
+
+function hideAutocomplete(){
+  autocompleteItems=[];
+  autocompleteIndex=-1;
+  $('autocompleteBox').classList.add('hidden');
+  $('autocompleteBox').innerHTML='';
+}
+
+function chooseAutocomplete(i){
+  const item=autocompleteItems[i];
+  if(!item)return;
+  const t=currentTokenInfo(),v=modelsInput.value;
+  let before=v.slice(0,t.start),after=v.slice(t.end);
+  if(after&&!/^[\s,;]/.test(after)) after='\n'+after;
+  const needsNewline=after.length===0;
+  modelsInput.value=before+item.model+(needsNewline?'\n':'')+after;
+  const pos=(before+item.model+(needsNewline?'\n':'')).length;
+  modelsInput.setSelectionRange(pos,pos);
+  modelsInput.focus();
+  $('modelCount').textContent=parseModels().length+' models entered';
+  hideAutocomplete();
+}
+
+function handleAutocompleteKeydown(e){
+  const box=$('autocompleteBox');
+  if(box.classList.contains('hidden'))return;
+  if(e.key==='ArrowDown'){
+    e.preventDefault();
+    if(autocompleteItems.length){autocompleteIndex=(autocompleteIndex+1)%autocompleteItems.length;renderAutocomplete();}
+  }else if(e.key==='ArrowUp'){
+    e.preventDefault();
+    if(autocompleteItems.length){autocompleteIndex=(autocompleteIndex-1+autocompleteItems.length)%autocompleteItems.length;renderAutocomplete();}
+  }else if(e.key==='Enter'&&autocompleteItems.length){
+    e.preventDefault();
+    chooseAutocomplete(Math.max(0,autocompleteIndex));
+  }else if(e.key==='Escape'){
+    e.preventDefault();
+    hideAutocomplete();
+  }
+}
 
 function todayLocalISO(){
   // Optional private test helper: append ?date=2026-08-27 to preview a scheduled date.

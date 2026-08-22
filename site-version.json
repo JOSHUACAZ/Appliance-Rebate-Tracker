@@ -1,5 +1,5 @@
 {
-  "version": "2026.08.21.1",
+  "version": "2026.08.21.2",
   "published": "2026-08-21",
-  "notes": "Cache-aware release with automatic version checking."
+  "notes": "Predictive model text added; no rebate logic or other site behavior changed."
 }
