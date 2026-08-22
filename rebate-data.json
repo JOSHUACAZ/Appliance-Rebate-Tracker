@@ -1,11 +1,11 @@
 {
   "siteName": "ApplianceRebates.com",
-  "dataVersion": "2026-07-15",
+  "dataVersion": "2026-08-21-scheduled-print-v2",
   "programs": [
     {
       "id": "cafe",
       "name": "Caf\u00e9 Express Yourself",
-      "validDates": "See current official rebate form",
+      "validDates": "July 1, 2026 - December 31, 2026",
       "color": "#8b5e3c",
       "models": [
         {
@@ -633,10 +633,6 @@
           "category": "Speedcooking 5-in-1 Wall Ovens and Microwaves"
         },
         {
-          "model": "CSB923P4VW2",
-          "category": "Speedcooking 5-in-1 Wall Ovens and Microwaves"
-        },
-        {
           "model": "CWB713P2VS1",
           "category": "Built-In Microwave"
         },
@@ -907,6 +903,14 @@
         {
           "model": "UCG1510NII",
           "category": "Built-In Compactor"
+        },
+        {
+          "model": "UVM9125DYWW",
+          "category": "Over-The-Range Microwaves"
+        },
+        {
+          "model": "UVM9125DYBB",
+          "category": "Over-The-Range Microwaves"
         }
       ],
       "tiers": {
@@ -929,20 +933,27 @@
         "dishwasherCap": 2,
         "twoPieceDishwasherExclusion": true,
         "wallOvenCooktopBonus": 200,
-        "commercialStyleRangeBonus": 500
+        "commercialStyleRangeBonus": 500,
+        "restrictedGroupKeywords": [
+          "Countertop",
+          "Over-The-Range",
+          "Ventilation"
+        ]
       },
       "notes": [
-        "First unit only counts for Countertop, Over-The-Range, and Ventilation categories.",
-        "Dishwashers are capped at two counted units.",
-        "A two-piece Caf\u00e9 package containing a dishwasher receives no base rebate.",
+        "Only one total appliance counts across Countertop Microwave, Over-The-Range Microwave, and Ventilation.",
+        "Dishwashers are capped at two counted units; dishwashers do not qualify as a choice in a 2-piece package.",
         "$200 bonus for an eligible wall oven plus eligible cooktop.",
         "$500 bonus for an eligible Commercial-Style Range."
-      ]
+      ],
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "pdf": "rebates/cafe-express-yourself-2026-h2.pdf"
     },
     {
       "id": "profile",
       "name": "GE Profile Innovation",
-      "validDates": "See current official rebate form",
+      "validDates": "July 1, 2026 - December 31, 2026",
       "color": "#375a7f",
       "models": [
         {
@@ -1794,12 +1805,15 @@
       },
       "notes": [
         "First unit only counts for Microwave and Ventilation categories."
-      ]
+      ],
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "pdf": "rebates/profile-innovation-2026-h2.pdf"
     },
     {
       "id": "commercial",
       "name": "GE Commercial Laundry Pair",
-      "validDates": "July 1, 2026 \u2013 September 1, 2026",
+      "validDates": "July 1, 2026 - September 1, 2026",
       "color": "#28785c",
       "models": [
         {
@@ -1831,12 +1845,15 @@
       "notes": [
         "$150 requires GTW525ACWWB plus one qualifying dryer.",
         "Limit one rebate per household."
-      ]
+      ],
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-01",
+      "pdf": "rebates/ge-commercial-laundry-q3-2026.pdf"
     },
     {
       "id": "monogram",
       "name": "Monogram Delivery & Installation",
-      "validDates": "July 1, 2026 \u2013 September 30, 2026",
+      "validDates": "July 1, 2026 - September 30, 2026",
       "color": "#5e4b8b",
       "models": [
         {
@@ -2019,7 +2036,1280 @@
         "$300 is specifically toward delivery and installation.",
         "One qualifying built-in refrigerator required.",
         "Limit one rebate per household."
+      ],
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-30",
+      "pdf": "rebates/monogram-delivery-install-q3-2026.pdf"
+    },
+    {
+      "id": "labor-day-2026",
+      "name": "BrandSource GE Labor Day Savings",
+      "validDates": "August 27, 2026 - September 16, 2026",
+      "startDate": "2026-08-27",
+      "endDate": "2026-09-16",
+      "color": "#c62828",
+      "pdf": "rebates/brandsource-labor-day-2026.pdf",
+      "models": [
+        {
+          "model": "CAE28DM5TS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDD220P2WS1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "C2S900P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CEP90302TSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CKD70DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "ETW485ASWWB",
+          "category": "Washers"
+        },
+        {
+          "model": "ETD48EASWWB",
+          "category": "Dryers"
+        },
+        {
+          "model": "CFE28TP2MS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDD220P3WD1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "C2S950P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CEP90361TBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CKS70DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GFW655SPVDS",
+          "category": "Washers"
+        },
+        {
+          "model": "ETD48GASWWB",
+          "category": "Dryers"
+        },
+        {
+          "model": "CFE28TP3MD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDD220P4WW2",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "C2Y366P2TS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CEP90362TSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CSB912P2VS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GFW655SSVWW",
+          "category": "Washers"
+        },
+        {
+          "model": "GFD65ESPVDS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CFE28TP4MW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDD420P2TS1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "C2Y366P3TD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGP95302MS1",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CSB913M2VS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GTW485ASWWB",
+          "category": "Washers"
+        },
+        {
+          "model": "GFD65ESSVWW",
+          "category": "Dryers"
+        },
+        {
+          "model": "CGE29DM5TS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDD420P3TD1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "C2Y366P4TW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGP95362MS1",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CSB913P2VS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PFW870SPVRS",
+          "category": "Washers"
+        },
+        {
+          "model": "GFD65GSPVDS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CGE29DP2TS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDD420P4TW2",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "C2Y486P2TS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHP90301TBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CSB923P2VS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PFW870SSVWW",
+          "category": "Washers"
+        },
+        {
+          "model": "GFD65GSSVWW",
+          "category": "Dryers"
+        },
+        {
+          "model": "CGE29DP3TD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDP888M5VS5",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "C2Y486P3TD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHP90302TSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTC912P2NS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PFW955SPWDS",
+          "category": "Washers"
+        },
+        {
+          "model": "GTD48EASWWB",
+          "category": "Dryers"
+        },
+        {
+          "model": "CGE29DP4TW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDT828P2VS1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "C2Y486P4TW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHP90361TBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD70DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PFW955SPWGN",
+          "category": "Washers"
+        },
+        {
+          "model": "GTD48GASWWB",
+          "category": "Dryers"
+        },
+        {
+          "model": "CHE23DM5WS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDT858P2VS1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CES700P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHP90362TSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90DM2NS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW600BPRDG",
+          "category": "Washers"
+        },
+        {
+          "model": "PFD87ESPVRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CIC36LP2VS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDT858P3VD1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CES700P3MD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "JEP5030DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90DM2ZS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW600BSRWS",
+          "category": "Washers"
+        },
+        {
+          "model": "PFD87ESSVWW",
+          "category": "Dryers"
+        },
+        {
+          "model": "CIC36RP2VS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDT858P4VW2",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CES700P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "JEP5036DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90DP2NS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW605BPRDG",
+          "category": "Washers"
+        },
+        {
+          "model": "PFD87GSPVRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CIP36NP2VS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDT888P2VS1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CES750M2NS5",
+          "category": "Ranges"
+        },
+        {
+          "model": "JEP5036STSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW605BSRWS",
+          "category": "Washers"
+        },
+        {
+          "model": "PFD87GSSVWW",
+          "category": "Dryers"
+        },
+        {
+          "model": "CJE23DM5WS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDT888P3VD1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CES750P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "JGP5030SLSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90DP3ND1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW700BPTDG",
+          "category": "Washers"
+        },
+        {
+          "model": "PFD95ESPWDS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CJE23DP2WS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CDT888P4VW2",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CES750P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "PEP7030DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90DP3ZD1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW700BSTWS",
+          "category": "Washers"
+        },
+        {
+          "model": "PFD95ESPWGN",
+          "category": "Dryers"
+        },
+        {
+          "model": "CJE23DP3WD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PDT795SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CGS700M2NS5",
+          "category": "Ranges"
+        },
+        {
+          "model": "PEP7036DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90DP4ZW2",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW705BPTDG",
+          "category": "Washers"
+        },
+        {
+          "model": "PFD95GSPWDS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CJE23DP4WW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PDT755SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CGS700P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "PEP9030DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90FP2NS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW705BSTWS",
+          "category": "Washers"
+        },
+        {
+          "model": "PFD95GSPWGN",
+          "category": "Dryers"
+        },
+        {
+          "model": "CSB42WP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PDT755SBVTS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CGS700P3MD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "PEP9030STSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90FP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW800BPWRS",
+          "category": "Washers"
+        },
+        {
+          "model": "PTD60EBPRDG",
+          "category": "Dryers"
+        },
+        {
+          "model": "CSB42YP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PDT715SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CGS700P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "PEP9036DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90FP3ND1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTW805BPWRS",
+          "category": "Washers"
+        },
+        {
+          "model": "PTD60EBSRWS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CSB48WP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PDT715SIYII",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CGS750P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "PEP9036STSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90FP3ZD1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD60GBPRDG",
+          "category": "Dryers"
+        },
+        {
+          "model": "CSB48YP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PDP795SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CGS750P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "PHP9036STSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTD90FP4ZW2",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD60GBSRWS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CVE28DM5NS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PDP755SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CGY366P2TS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGP7030DLBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS70DM2NS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD70EBPTDG",
+          "category": "Dryers"
+        },
+        {
+          "model": "CVE28DP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PDP715SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CGY366P3TD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGP7030SLSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS70DM2ZS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD70EBSTWS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CVE28DP3ND1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PDD415PYYFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CGY366P4TW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGP7036DLBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS70DP2NS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PFH18HSPVMC",
+          "category": "Steam Closet"
+        },
+        {
+          "model": "PTD70GBPTDG",
+          "category": "Dryers"
+        },
+        {
+          "model": "CVE28DP4NW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT670SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CHS900P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGP7036SLSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS70DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD70GBSTWS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CXE22DM5PS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT670SMVES",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CHS900P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGP9030SLSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS90DM2ZS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD80EBPTRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CXE22DP2PS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT670SGVWW",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CHS90XM2NS5",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGP9036SLSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS90DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD80GBPTRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CXE22DP3PD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT670SGVBB",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CHS90XP2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "PHP9030DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS90DP3ZD1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PFQ97HSPVDS",
+          "category": "All In One",
+          "countValue": 2
+        },
+        {
+          "model": "PTD90EBPTRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "CXE22DP4PW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT650SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CHS950P3MD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "PHP9030STSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS90DP4ZW2",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD90GBPTRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFQ97HSPVGN",
+          "category": "All In One",
+          "countValue": 2
+        },
+        {
+          "model": "CYE22TP2MS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT650SMVES",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CHS950P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "PHP9036DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS90FP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PFQ97HSPVRS",
+          "category": "All In One",
+          "countValue": 2
+        },
+        {
+          "model": "CYE22TP3MD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT595HYYFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GGF600AVBB",
+          "category": "Ranges"
+        },
+        {
+          "model": "PHP6030DWBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS90FP3ZD1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CYE22TP4MW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT565HSYSS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GGF600AVES",
+          "category": "Ranges"
+        },
+        {
+          "model": "PHP6036DWBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CTS90FP4ZW2",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PAD28BYTFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT535PYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GGF600AVSS",
+          "category": "Ranges"
+        },
+        {
+          "model": "CTS92DM2ZS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PAE28BYTFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT535PSRSS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GGF600AVWW",
+          "category": "Ranges"
+        },
+        {
+          "model": "PKD7000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PFE28KBLTS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT535PGRWW",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GGS500SVSS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PKS7000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PFE28KYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDT535PGRBB",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GGS600AVES",
+          "category": "Ranges"
+        },
+        {
+          "model": "PT7800SHSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PGE29BYTFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDP670SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GGS600AVFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PT9800SHSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PHD23BYWFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDP670SMVES",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GGS600AVWW",
+          "category": "Ranges"
+        },
+        {
+          "model": "PT9900SWSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PJD23BYWFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDP670SGVWW",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GRF600AVBB",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTD7000SNSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PJE23BYWFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDF650SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GRF600AVES",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTD7000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PVD28BYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GDF650SMVES",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GRF600AVSS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTD700LSZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PVD28HYYFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GRF600AVWW",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTD700RSZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PWE23KYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GRS500PVSS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTD9000SNSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PXD22BYPFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GRS600AVES",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTD9000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PXD22HYYFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GRS600AVFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTS7000BNTS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PYE22KBLTS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVW73012MSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "GRS600AVWW",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTS7000SNSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PYE22KMKES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVW73014MWM",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PB900YVFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTS7000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PYE22KYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVW73612MSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PGB935YPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTS700LSZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GFE28GMKES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVW73614MWM",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PGF700AYFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTS700RSZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GFE28GYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVW93043PDS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PGS930BPTS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTS9000SNSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GNE25JMKES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVW93044PWM",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PGS930YPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTS9000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GNE25JYKFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVW93643PDS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PHS700AYFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PTS9200SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GNE27JMMES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVW93644PWM",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PHS930YPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "JTD5000SVSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GNE27JYMFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "UVC9360SLSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PHS93XYPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "JTS5000SVSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "GSS25IMNES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "UVW9301SLSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PRF700AYFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "GSS25IYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "UVW93042PSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PSS93BPTS",
+          "category": "Ranges"
+        },
+        {
+          "model": "GSS28PYYFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "UVW9361SLSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "PSS93YPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "GTS22KGNRBB",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "UVW93642PSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "GTS22KGNRWW",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GTS22KMNRES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GTS22KYNRFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GWE19JMLES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GWE19JYLFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GWE22JYMFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GZS22IMNES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GZS22IYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GZS24PYYFS",
+          "category": "Refrigeration"
+        }
+      ],
+      "tiers": {
+        "1": 50,
+        "2": 100,
+        "3": 150,
+        "4": 200,
+        "5": 300,
+        "6": 500
+      },
+      "rules": {
+        "maxBaseCount": 6,
+        "limitPerCategory": 1,
+        "allInOneCountsAs": 2
+      },
+      "notes": [
+        "Limit one qualifying appliance per category.",
+        "Eligible All-In-One models count as two appliances.",
+        "Maximum listed payout is $500 at six counted appliances.",
+        "Valid only at authorized BrandSource member stores."
       ]
     }
-  ]
+  ],
+  "scheduleBehavior": "Programs are evaluated only when the visitor browser date is between startDate and endDate, inclusive."
 }

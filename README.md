@@ -1,39 +1,91 @@
-# ApplianceRebates.com
+# ApplianceRebates.com - Scheduled Rebates + Printable Forms
 
-Static web application rebuilt from `GEA_Rebate_Package_Builder_Commercial_Laundry_Monogram(1).xlsx`.
+Static GitHub Pages web app. No login, database, or server is required.
 
-## Public access and browser privacy
+## What's new in this version
 
-- The calculator is available to every visitor without a username, password, or account.
-- User-entered model numbers and calculated package results are processed entirely in the visitor's browser.
-- Package entries are saved only in that browser's `localStorage` so the visitor can return to their package later.
-- The site contains no form submission, user database, cookies, analytics, or server-side storage.
-- Selecting **Clear** removes the saved package from that browser.
-- `rebate-data.json` is downloaded as a read-only public data file needed to run the calculator; it does not receive user-entered information.
+- Date-aware rebate programs with `startDate` and `endDate`.
+- Future programs can be uploaded early and activate automatically on their effective date.
+- Expired programs automatically disappear from the public calculator.
+- Each program is tied to its official rebate PDF in `/rebates`.
+- **Print Eligible Rebate Forms** builds one PDF packet in the user's browser containing only programs currently returning a payout greater than $0.
+- Model numbers and calculated results remain browser-local.
+- BrandSource GE Labor Day Savings is preloaded for **August 27, 2026 - September 16, 2026**.
+
+## Current scheduled timeline
+
+- Cafe Express Yourself: 2026-07-01 through 2026-12-31
+- GE Profile Innovation: 2026-07-01 through 2026-12-31
+- GE Commercial Laundry Pair: 2026-07-01 through 2026-09-01
+- Monogram Delivery & Installation: 2026-07-01 through 2026-09-30
+- BrandSource GE Labor Day Savings: 2026-08-27 through 2026-09-16
+
+Dates are inclusive and are evaluated using the visitor's local browser date.
+
+## GitHub upload
+
+Upload the **contents of this folder** to the root of the `Appliance-Rebate-Tracker` repository, replacing the existing files. Keep the `rebates` folder intact.
+
+Required root files:
+
+- `index.html`
+- `styles.css`
+- `app.js`
+- `rebate-data.js`
+- `rebate-data.json`
+- `admin.html`
+- `rebates/` folder with the official PDFs
+
+GitHub Pages should remain configured to deploy from `main` and `/ (root)`.
+
+## Testing scheduled activation before August 27
+
+The public interface uses today's browser date. For private testing only, append a date query to the URL:
+
+`?date=2026-08-27`
+
+Example:
+
+`https://joshuacaz.github.io/Appliance-Rebate-Tracker/?date=2026-08-27`
+
+This lets you verify the Labor Day rebate before it becomes active. Remove the query parameter for normal use.
+
+## Printing
+
+When one or more active programs calculate a payout greater than $0, the **Print Eligible Rebate Forms** button becomes enabled. It combines only those official PDFs into a single browser-generated PDF packet. The packet is created locally in the visitor's browser.
+
+The PDF merge uses the browser build of `pdf-lib` loaded from jsDelivr. No entered appliance models are transmitted to that library or service.
+
+## Future rebate updates
+
+1. Copy the new official rebate PDF into `/rebates`.
+2. Open `admin.html` or edit `rebate-data.json` directly.
+3. Add a new program/version with a unique `id`, its model list/rules, `startDate`, `endDate`, and `pdf` path.
+4. Download/replace both `rebate-data.json` and `rebate-data.js`.
+5. Upload the new PDF and both data files to GitHub.
+6. Commit the changes. GitHub Pages republishes automatically.
+
+You do **not** need to remove the currently active rebate before uploading its replacement. The dates control which version is shown.
+
+## Privacy
+
+- No account or password is required.
+- Model entries and results use browser `localStorage` only.
+- There is no user database or submission endpoint.
+- Clearing the package removes its saved browser data.
 
 
-## Run locally
-Because the site loads `rebate-data.json`, serve the folder rather than double-clicking index.html:
+## Automatic update / cache handling
 
-```bash
-python -m http.server 8080
-```
-Then open `http://localhost:8080`.
+This release uses build version `2026.08.21.1`. The page references the stylesheet, rebate data, and application script with a version query string so a new deployment does not reuse an older cached asset.
 
-## Publish a shareable link
-Deploy the entire folder to Netlify, Vercel, GitHub Pages, Azure Static Web Apps, or another approved host. The custom domain `ApplianceRebates.com` must be separately registered/owned, then its DNS pointed to the host.
+`site-version.json` is checked with `cache: no-store` when the app opens, when the tab regains focus, and every five minutes while it remains open. If a newer deployed version is detected, the app reloads itself with the new build identifier.
 
-## Update rebates
-1. Open `admin.html` directly as a maintenance utility. It is intentionally not linked from the public calculator.
-2. Edit the JSON and validate it.
-3. Download the updated `rebate-data.json`.
-4. Replace the deployed `rebate-data.json` file and redeploy.
+For every future deployment, change the version in all four places together:
 
-For a production admin experience where nontechnical users can update data without redeploying, connect this frontend to a database/CMS and add authentication. The current version intentionally remains static, portable, and low-cost.
+- `site-version.json` → `version`
+- `app.js` → `APP_BUILD_VERSION`
+- `index.html` → the `?v=` value on `styles.css`, `rebate-data.js`, and `app.js`
+- Optionally update the published date / notes in `site-version.json`
 
-## Current logic
-- Café tiers: 2=$100, 3=$200, 4=$400, 5=$900, 6=$1,400, 7=$2,000, 8=$2,500.
-- Café category caps and bonuses mirror workbook notes.
-- Profile tiers: 4=$400, 5=$750, 6=$1,100, 7=$1,500, 8=$2,000.
-- Commercial Laundry: $150 qualifying washer/dryer pair.
-- Monogram: $300 delivery and installation payout for one eligible built-in refrigerator.
+This means users can keep using the same GitHub Pages URL and will receive future versions automatically after the new files are deployed. A one-time hard refresh after installing this release is still recommended for users who currently have the pre-cache-aware version open.
