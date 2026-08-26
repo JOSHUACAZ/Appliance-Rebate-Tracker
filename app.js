@@ -1,4 +1,4 @@
-const APP_BUILD_VERSION = '2026.08.26.1';
+const APP_BUILD_VERSION = '2026.08.26.2';
 
 async function checkForSiteUpdate() {
   try {
@@ -30,13 +30,30 @@ let lastActivePrograms = [];
 let autocompleteItems = [];
 let autocompleteIndex = -1;
 
+function trackEvent(name, params={}){
+  if(typeof window.gtag !== 'function') return;
+  window.gtag('event', name, params);
+}
+
+function analyticsSnapshot(){
+  const models=parseModels();
+  const results=lastResults||{};
+  const paid=Object.values(results).filter(r=>Number(r?.amount||0)>0);
+  const total=Object.values(results).reduce((sum,r)=>sum+Number(r?.amount||0),0);
+  return {
+    package_size: models.length,
+    qualifying_rebate_count: paid.length,
+    total_rebate_amount: total
+  };
+}
+
 $('calculateBtn').onclick = calculate;
 $('clearBtn').onclick = () => {
   modelsInput.value='';
   localStorage.removeItem('applianceRebateModels');
   render([]);
 };
-$('printBtn').onclick = () => window.print();
+$('printBtn').onclick = () => { trackEvent('print_results', analyticsSnapshot()); window.print(); };
 $('printFormsBtn').onclick = printEligibleForms;
 modelsInput.addEventListener('input',()=>{$('modelCount').textContent=parseModels().length+' models entered';updateAutocomplete();});
 modelsInput.addEventListener('keydown',handleAutocompleteKeydown);
@@ -232,6 +249,11 @@ function calculate(){
   let models=parseModels();
   localStorage.setItem('applianceRebateModels',models.join('\n'));
   render(models);
+  const snapshot=analyticsSnapshot();
+  trackEvent('check_rebates', snapshot);
+  Object.entries(lastResults).forEach(([programId,result])=>{
+    if(Number(result?.amount||0)>0) trackEvent('rebate_qualified',{rebate_program:programId, rebate_amount:Number(result.amount||0), package_size:models.length});
+  });
 }
 
 function render(models){
@@ -292,6 +314,7 @@ function shortName(p){
 async function printEligibleForms(){
   const eligible=lastActivePrograms.filter(p=>lastResults[p.id]?.amount>0 && p.pdf);
   if(!eligible.length) return;
+  trackEvent('print_eligible_rebate_forms',{...analyticsSnapshot(), forms_count:eligible.length});
   const popup=window.open('','_blank');
   if(!popup){alert('Please allow pop-ups for this site so the eligible rebate packet can open.');return;}
   popup.document.write('<!doctype html><title>Preparing rebate forms...</title><style>body{font-family:Arial;padding:32px;color:#233} .box{max-width:620px;margin:auto} progress{width:100%}</style><div class="box"><h2>Preparing eligible rebate forms…</h2><p>Combining '+eligible.length+' official rebate form(s) into one PDF packet.</p><progress></progress></div>');

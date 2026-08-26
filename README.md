@@ -96,3 +96,10 @@ This means users can keep using the same GitHub Pages URL and will receive futur
 - Added GE Refrigeration Labor Day Bonus (GEPPKLD26), active 2026-08-27 through 2026-09-16, $100 for one qualifying GE Profile or Café refrigerator.
 - Replaced the GE Commercial Laundry form with version 8.19.26 and extended its active end date through 2026-09-30.
 - Predictive text, print behavior, browser-local storage, and all other existing site behavior are unchanged.
+
+
+## Google Analytics 4
+
+Measurement ID: `G-2TX46QFNKC`
+
+This build tracks page visits through GA4 plus anonymous custom events for `check_rebates`, `rebate_qualified`, `print_results`, and `print_eligible_rebate_forms`. Appliance model numbers are not sent to GA4. Event parameters include package size, qualifying rebate count, total calculated rebate amount, rebate program identifier, rebate amount, and forms count where applicable.

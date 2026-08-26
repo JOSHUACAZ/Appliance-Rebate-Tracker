@@ -1,5 +1,5 @@
 {
-  "version": "2026.08.26.1",
+  "version": "2026.08.26.2",
   "published": "2026-08-26",
-  "notes": "Added GE Refrigeration Labor Day Bonus rebate and extended GE Commercial Laundry rebate through September 30, 2026."
+  "notes": "Added Google Analytics 4 usage tracking without transmitting appliance model numbers."
 }
