@@ -1,4 +1,4 @@
-const APP_BUILD_VERSION = '2026.08.21.2';
+const APP_BUILD_VERSION = '2026.08.26.1';
 
 async function checkForSiteUpdate() {
   try {

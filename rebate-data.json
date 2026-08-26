@@ -1,10 +1,10 @@
 {
   "siteName": "ApplianceRebates.com",
-  "dataVersion": "2026-08-21-scheduled-print-v2",
+  "dataVersion": "2026-08-26-spencers-rebate-update-v1",
   "programs": [
     {
       "id": "cafe",
-      "name": "Caf\u00e9 Express Yourself",
+      "name": "Café Express Yourself",
       "validDates": "July 1, 2026 - December 31, 2026",
       "color": "#8b5e3c",
       "models": [
@@ -1813,7 +1813,7 @@
     {
       "id": "commercial",
       "name": "GE Commercial Laundry Pair",
-      "validDates": "July 1, 2026 - September 1, 2026",
+      "validDates": "July 1, 2026 - September 30, 2026",
       "color": "#28785c",
       "models": [
         {
@@ -1844,10 +1844,11 @@
       },
       "notes": [
         "$150 requires GTW525ACWWB plus one qualifying dryer.",
-        "Limit one rebate per household."
+        "Limit one appliance per category and one rebate per household.",
+        "Offer valid through September 30, 2026."
       ],
       "startDate": "2026-07-01",
-      "endDate": "2026-09-01",
+      "endDate": "2026-09-30",
       "pdf": "rebates/ge-commercial-laundry-q3-2026.pdf"
     },
     {
@@ -3308,6 +3309,160 @@
         "Eligible All-In-One models count as two appliances.",
         "Maximum listed payout is $500 at six counted appliances.",
         "Valid only at authorized BrandSource member stores."
+      ]
+    },
+    {
+      "id": "refrigeration-labor-day-bonus-2026",
+      "name": "GE Refrigeration Labor Day Bonus",
+      "validDates": "August 27, 2026 - September 16, 2026",
+      "startDate": "2026-08-27",
+      "endDate": "2026-09-16",
+      "color": "#c62828",
+      "pdf": "rebates/ge-refrigeration-labor-day-bonus-2026.pdf",
+      "models": [
+        {
+          "model": "PGE29BYTFS",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "PGD29BYTFS",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "PAE28BYTFS",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "PAD28BYTFS",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "PJE23BYWFS",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "PJD23BYWFS",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "PHD23BYWFS",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "PVD28BYNFS",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "PXD22BYPFS",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CVE28DM5NS5",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CVE28DP2NS1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CVE28DP3ND1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CVE28DP4NW2",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CXE22DM5PS5",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CXE22DP2PS1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CXE22DP3PD1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CXE22DP4PW2",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CGE29DP2TS1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CGE29DP3TD1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CGE29DP4TW2",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CGE29DM5TS5",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CJE23DM5WS5",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CJE23DP2WS1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CJE23DP3WD1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CJE23DP4WW2",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CAE28DM5TS5",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CHE23DM5WS5",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CKE24RP2YS1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CKE24RP3YD1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CKE24RP4YW2",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CZE24RP2YS1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CZE24RP3YD1",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        },
+        {
+          "model": "CZE24RP4YW2",
+          "category": "Qualifying GE Profile / Café Refrigerator"
+        }
+      ],
+      "tiers": {
+        "1": 100
+      },
+      "rules": {
+        "maxBaseCount": 1
+      },
+      "notes": [
+        "$100 with purchase of one qualifying GE Profile or Café refrigerator.",
+        "Limit one rebate per code per household.",
+        "Offer valid August 27 through September 16, 2026."
       ]
     }
   ],

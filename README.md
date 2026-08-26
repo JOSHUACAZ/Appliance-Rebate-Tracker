@@ -89,3 +89,10 @@ For every future deployment, change the version in all four places together:
 - Optionally update the published date / notes in `site-version.json`
 
 This means users can keep using the same GitHub Pages URL and will receive future versions automatically after the new files are deployed. A one-time hard refresh after installing this release is still recommended for users who currently have the pre-cache-aware version open.
+
+
+## 2026-08-26 rebate update
+
+- Added GE Refrigeration Labor Day Bonus (GEPPKLD26), active 2026-08-27 through 2026-09-16, $100 for one qualifying GE Profile or Café refrigerator.
+- Replaced the GE Commercial Laundry form with version 8.19.26 and extended its active end date through 2026-09-30.
+- Predictive text, print behavior, browser-local storage, and all other existing site behavior are unchanged.
