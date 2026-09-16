@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><title>ApplianceRebates.com</title><link rel="stylesheet" href="styles.css?v=2026.09.16.1"><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2TX46QFNKC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2TX46QFNKC');
+</script>
+</head><body>
+<header><div class="brand"><div class="logo">AR</div><div><h1>ApplianceRebates.com</h1><p>Build a package. See every active eligible rebate.</p></div></div><div class="header-actions"><button id="printFormsBtn" class="primary" disabled>Print Eligible Rebate Forms</button><button id="printBtn" class="ghost">Print Results</button></div></header>
+<main><section class="hero"><div><span class="eyebrow">REBATE PACKAGE BUILDER</span><h2>Enter appliance model numbers</h2><p>Add one model per line or paste a list. Each model is evaluated across every rebate program active on today's date.</p><div class="privacy-badge">Private to this browser · No account required</div><div id="asOfDate" class="asof"></div></div><div class="hero-stat"><strong id="totalSavings">$0</strong><span>Total potential rebates</span></div></section>
+<section class="workspace"><div class="input-card"><div class="section-head"><div><h3>Package models</h3><p>Model numbers may be separated by spaces, commas, or new lines.</p></div><button id="clearBtn" class="ghost small">Clear</button></div><div class="model-entry-wrap"><textarea id="modelsInput" autocomplete="off" spellcheck="false" placeholder="Start typing a model number…
+Example:
+CFE28TP2MS1
+CDT888P3VD1
+CEP90361TBB"></textarea><div id="autocompleteBox" class="autocomplete-box hidden" role="listbox" aria-label="Model suggestions"></div></div><p class="autocomplete-hint">Tip: type at least 2 characters. Use ↑/↓ and Enter, or click a suggestion.</p><div class="actions"><button id="calculateBtn" class="primary">Check rebates</button><span id="modelCount">0 models entered</span></div><div id="unknownBox" class="unknown hidden"></div></div>
+<div class="results"><div id="summaryCards" class="summary-grid"></div><div class="detail-card"><div class="section-head"><div><h3>Model-by-model eligibility</h3><p>Only currently active rebate programs are shown. Scheduled programs activate automatically on their effective date.</p></div></div><div class="table-wrap"><table><thead id="detailHead"><tr><th>Model</th></tr></thead><tbody id="detailBody"><tr><td class="empty">Enter models to begin.</td></tr></tbody></table></div></div></div></section>
+<section class="disclaimer"><strong>Printing:</strong> “Print Eligible Rebate Forms” creates one PDF packet containing only official rebate forms whose calculated payout is greater than $0 for the current package.</section>
+<section class="disclaimer"><strong>Privacy:</strong> Appliance model numbers stay in this browser and are not sent to analytics. Anonymous usage metrics such as page visits, package size, rebate counts, total calculated rebate amount, and print actions may be collected to understand site usage. Clearing the package removes the saved model data from this browser.</section>
+<section class="disclaimer"><strong>Important:</strong> Results are a planning aid based on the loaded rebate data. Confirm final eligibility, stacking restrictions, dates, dealer participation, purchase requirements, installation requirements, and household limits against the official rebate forms.</section></main>
+<footer><span>ApplianceRebates.com</span><span>No login · Browser-local results · Date-aware rebates</span></footer>
+<script src="rebate-data.js?v=2026.09.16.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js" integrity="sha512-z8IYLHO8bTgFqj+yrPyIJnzBDf7DDhWwiEsk4sY+Oe6J2M+WQequeGS7qioI5vT6rXgVRb4K1UVQC5ER7MKzKQ==" crossorigin="anonymous"></script>
+<script src="app.js?v=2026.09.16.1"></script></body></html>
