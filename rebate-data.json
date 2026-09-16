@@ -1,10 +1,10 @@
 {
   "siteName": "ApplianceRebates.com",
-  "dataVersion": "2026-08-26-spencers-rebate-update-v1",
+  "dataVersion": "2026-09-16-spencers-profile-laundry-pair-v1",
   "programs": [
     {
       "id": "cafe",
-      "name": "Café Express Yourself",
+      "name": "Caf\u00e9 Express Yourself",
       "validDates": "July 1, 2026 - December 31, 2026",
       "color": "#8b5e3c",
       "models": [
@@ -3322,135 +3322,135 @@
       "models": [
         {
           "model": "PGE29BYTFS",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "PGD29BYTFS",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "PAE28BYTFS",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "PAD28BYTFS",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "PJE23BYWFS",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "PJD23BYWFS",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "PHD23BYWFS",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "PVD28BYNFS",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "PXD22BYPFS",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CVE28DM5NS5",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CVE28DP2NS1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CVE28DP3ND1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CVE28DP4NW2",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CXE22DM5PS5",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CXE22DP2PS1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CXE22DP3PD1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CXE22DP4PW2",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CGE29DP2TS1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CGE29DP3TD1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CGE29DP4TW2",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CGE29DM5TS5",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CJE23DM5WS5",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CJE23DP2WS1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CJE23DP3WD1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CJE23DP4WW2",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CAE28DM5TS5",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CHE23DM5WS5",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CKE24RP2YS1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CKE24RP3YD1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CKE24RP4YW2",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CZE24RP2YS1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CZE24RP3YD1",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         },
         {
           "model": "CZE24RP4YW2",
-          "category": "Qualifying GE Profile / Café Refrigerator"
+          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
         }
       ],
       "tiers": {
@@ -3460,9 +3460,272 @@
         "maxBaseCount": 1
       },
       "notes": [
-        "$100 with purchase of one qualifying GE Profile or Café refrigerator.",
+        "$100 with purchase of one qualifying GE Profile or Caf\u00e9 refrigerator.",
         "Limit one rebate per code per household.",
         "Offer valid August 27 through September 16, 2026."
+      ]
+    },
+    {
+      "id": "profile-laundry-pair-2026",
+      "name": "GE / GE Profile Laundry Pair $100 Back",
+      "validDates": "September 17, 2026 - September 30, 2026",
+      "startDate": "2026-09-17",
+      "endDate": "2026-09-30",
+      "color": "#5c6bc0",
+      "pdf": "rebates/ge-profile-laundry-pair-2026.pdf",
+      "models": [
+        {
+          "model": "GTW485ASWWB",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "GFW655SPVDS",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "GFW655SSVWW",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PFW870SPVRS",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PFW870SSVWW",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PFW955SPWDS",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PFW955SPWGN",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW600BPRDG",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW600BSRWS",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW605BPRDG",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW605BSRWS",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW700BPTDG",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW700BSTWS",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW705BPTDG",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW705BSTWS",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW800BPWRS",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PTW805BPWRS",
+          "category": "Qualifying Washer"
+        },
+        {
+          "model": "PFQ97HSPVDS",
+          "category": "Washer / Dryer Combo",
+          "countValue": 2
+        },
+        {
+          "model": "PFQ97HSPVGN",
+          "category": "Washer / Dryer Combo",
+          "countValue": 2
+        },
+        {
+          "model": "PFQ97HSPVRS",
+          "category": "Washer / Dryer Combo",
+          "countValue": 2
+        },
+        {
+          "model": "GTD48EASWWB",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "GTD48GASWWB",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "GFD65ESPVDS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "GFD65ESSVWW",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "GFD65GSPVDS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "GFD65GSSVWW",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PFD87ESPVRS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PFD87ESSVWW",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PFD87GSPVRS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PFD87GSSVWW",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PFD95ESPWDS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PFD95ESPWGN",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PFD95GSPWDS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PFD95GSPWGN",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD60EBPRDG",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD60EBSRWS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD60GBPRDG",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD60GBSRWS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD70EBPTDG",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD70EBSTWS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD70GBPTDG",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD70GBSTWS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD80EBPTRS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD80GBPTRS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD90EBPTRS",
+          "category": "Qualifying Dryer"
+        },
+        {
+          "model": "PTD90GBPTRS",
+          "category": "Qualifying Dryer"
+        }
+      ],
+      "tiers": {
+        "2": 100
+      },
+      "rules": {
+        "payout": 100,
+        "washers": [
+          "GTW485ASWWB",
+          "GFW655SPVDS",
+          "GFW655SSVWW",
+          "PFW870SPVRS",
+          "PFW870SSVWW",
+          "PFW955SPWDS",
+          "PFW955SPWGN",
+          "PTW600BPRDG",
+          "PTW600BSRWS",
+          "PTW605BPRDG",
+          "PTW605BSRWS",
+          "PTW700BPTDG",
+          "PTW700BSTWS",
+          "PTW705BPTDG",
+          "PTW705BSTWS",
+          "PTW800BPWRS",
+          "PTW805BPWRS"
+        ],
+        "dryers": [
+          "GTD48EASWWB",
+          "GTD48GASWWB",
+          "GFD65ESPVDS",
+          "GFD65ESSVWW",
+          "GFD65GSPVDS",
+          "GFD65GSSVWW",
+          "PFD87ESPVRS",
+          "PFD87ESSVWW",
+          "PFD87GSPVRS",
+          "PFD87GSSVWW",
+          "PFD95ESPWDS",
+          "PFD95ESPWGN",
+          "PFD95GSPWDS",
+          "PFD95GSPWGN",
+          "PTD60EBPRDG",
+          "PTD60EBSRWS",
+          "PTD60GBPRDG",
+          "PTD60GBSRWS",
+          "PTD70EBPTDG",
+          "PTD70EBSTWS",
+          "PTD70GBPTDG",
+          "PTD70GBSTWS",
+          "PTD80EBPTRS",
+          "PTD80GBPTRS",
+          "PTD90EBPTRS",
+          "PTD90GBPTRS"
+        ],
+        "combos": [
+          "PFQ97HSPVDS",
+          "PFQ97HSPVGN",
+          "PFQ97HSPVRS"
+        ],
+        "comboCountsAsPair": true
+      },
+      "notes": [
+        "$100 back with one qualifying washer and one qualifying dryer purchased together on the same invoice.",
+        "A qualifying PFQ97 washer/dryer combo counts as two appliances and qualifies by itself.",
+        "Purchase must be from an authorized BrandSource dealer.",
+        "Claim deadline: October 30, 2026."
       ]
     }
   ],

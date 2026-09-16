@@ -103,3 +103,7 @@ This means users can keep using the same GitHub Pages URL and will receive futur
 Measurement ID: `G-2TX46QFNKC`
 
 This build tracks page visits through GA4 plus anonymous custom events for `check_rebates`, `rebate_qualified`, `print_results`, and `print_eligible_rebate_forms`. Appliance model numbers are not sent to GA4. Event parameters include package size, qualifying rebate count, total calculated rebate amount, rebate program identifier, rebate amount, and forms count where applicable.
+
+
+## 2026-09-16 update
+Added GEPROLP26: $100 back on a qualifying washer + dryer pair, or one qualifying PFQ97 combo, active 2026-09-17 through 2026-09-30. Official form is included in rebates/ge-profile-laundry-pair-2026.pdf.

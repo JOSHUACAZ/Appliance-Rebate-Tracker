@@ -1,4 +1,4 @@
-const APP_BUILD_VERSION = '2026.08.26.2';
+const APP_BUILD_VERSION = '2026.09.16.1';
 
 async function checkForSiteUpdate() {
   try {
@@ -214,6 +214,17 @@ function calcCommercial(models,p){
   return {count:ok?2:matches.filter(Boolean).length,amount:ok?p.rules.payout:0,matches,counts:matches.map(Boolean),status:ok?'Eligible':'Needs qualifying pair',extra:[]};
 }
 
+
+function calcLaundryPair(models,p){
+  let matches=models.map(m=>lookup(p,m));
+  const hasCombo=(p.rules.combos||[]).some(m=>models.includes(m));
+  const hasWasher=(p.rules.washers||[]).some(m=>models.includes(m));
+  const hasDryer=(p.rules.dryers||[]).some(m=>models.includes(m));
+  const ok=hasCombo || (hasWasher && hasDryer);
+  const counts=matches.map(x=>Boolean(x));
+  return {count:ok?2:matches.filter(Boolean).length,amount:ok?Number(p.rules.payout||0):0,matches,counts,status:ok?'Eligible':'Needs qualifying washer + dryer',extra:hasCombo?['Qualifying combo counts as two appliances']:[]};
+}
+
 function calcMonogram(models,p){
   let matches=models.map(m=>lookup(p,m)),count=matches.filter(Boolean).length;
   return {count,amount:count?p.rules.payout:0,matches,counts:matches.map(Boolean),status:count?'Eligible':'Not eligible',extra:[]};
@@ -241,6 +252,7 @@ function calculateProgram(models,p){
   if(p.id==='profile') return calcProfile(models,p);
   if(p.id==='commercial') return calcCommercial(models,p);
   if(p.id==='monogram') return calcMonogram(models,p);
+  if(p.id==='profile-laundry-pair-2026') return calcLaundryPair(models,p);
   if(p.rules && p.rules.limitPerCategory) return calcTieredCategory(models,p);
   return calcProfile(models,p);
 }
@@ -308,6 +320,7 @@ function shortName(p){
   if(p.id==='commercial')return 'Commercial Laundry';
   if(p.id==='monogram')return 'Monogram D&I';
   if(p.id==='labor-day-2026')return 'Labor Day';
+  if(p.id==='profile-laundry-pair-2026')return 'Laundry Pair';
   return p.name;
 }
 
