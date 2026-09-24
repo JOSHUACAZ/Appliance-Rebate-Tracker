@@ -1,4 +1,4 @@
-const APP_BUILD_VERSION = '2026.09.16.1';
+const APP_BUILD_VERSION = '2026.09.24.1';
 
 async function checkForSiteUpdate() {
   try {
@@ -230,6 +230,24 @@ function calcMonogram(models,p){
   return {count,amount:count?p.rules.payout:0,matches,counts:matches.map(Boolean),status:count?'Eligible':'Not eligible',extra:[]};
 }
 
+function calcReward(models,p){
+  const matches=models.map(m=>lookup(p,m));
+  const counts=matches.map(Boolean);
+  const count=counts.filter(Boolean).length;
+  const rewardEligible=count>0;
+  const nonStackable=Boolean(p.rules&&p.rules.nonStackable);
+  return {count,amount:0,rewardEligible,matches,counts,status:rewardEligible?(nonStackable?'Eligible — non-stackable':'Eligible'):'Not eligible',extra:rewardEligible&&nonStackable?['Cannot be combined with any other GE Appliances rebate or promotion.']:[]};
+}
+
+function qualifiesForPrint(p,r){
+  return Boolean(p.pdf && (Number(r?.amount||0)>0 || r?.rewardEligible));
+}
+
+function programValueText(p,r){
+  if(r?.rewardEligible && p.rewardText) return p.rewardText;
+  return money(Number(r?.amount||0));
+}
+
 function calcTieredCategory(models,p){
   let matches=models.map(m=>lookup(p,m));
   let counts=matches.map(()=>false);
@@ -250,9 +268,10 @@ function calcTieredCategory(models,p){
 function calculateProgram(models,p){
   if(p.id==='cafe') return calcCafe(models,p);
   if(p.id==='profile') return calcProfile(models,p);
-  if(p.id==='commercial') return calcCommercial(models,p);
+  if(p.id==='commercial' || (p.rules&&p.rules.washer&&Array.isArray(p.rules.dryers))) return calcCommercial(models,p);
   if(p.id==='monogram') return calcMonogram(models,p);
   if(p.id==='profile-laundry-pair-2026') return calcLaundryPair(models,p);
+  if(p.rules && p.rules.rewardOnAnyEligibleModel) return calcReward(models,p);
   if(p.rules && p.rules.limitPerCategory) return calcTieredCategory(models,p);
   return calcProfile(models,p);
 }
@@ -264,7 +283,7 @@ function calculate(){
   const snapshot=analyticsSnapshot();
   trackEvent('check_rebates', snapshot);
   Object.entries(lastResults).forEach(([programId,result])=>{
-    if(Number(result?.amount||0)>0) trackEvent('rebate_qualified',{rebate_program:programId, rebate_amount:Number(result.amount||0), package_size:models.length});
+    if(Number(result?.amount||0)>0 || result?.rewardEligible) trackEvent('rebate_qualified',{rebate_program:programId, rebate_amount:Number(result.amount||0), reward_eligible:Boolean(result?.rewardEligible), package_size:models.length});
   });
 }
 
@@ -279,16 +298,16 @@ function render(models){
   $('totalSavings').textContent=money(total);
   $('modelCount').textContent=models.length+' models entered';
   $('asOfDate').textContent='Active rebates as of '+new Date(todayLocalISO()+'T12:00:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
-  const printable=programs.filter(p=>results[p.id]?.amount>0 && p.pdf);
+  const printable=programs.filter(p=>qualifiesForPrint(p,results[p.id]));
   $('printFormsBtn').disabled=printable.length===0;
   $('printFormsBtn').textContent=printable.length?`Print Eligible Rebate Forms (${printable.length})`:'Print Eligible Rebate Forms';
 
   $('summaryCards').innerHTML=programs.map(p=>{
     let r=results[p.id];
     return `<article class="summary-card" style="--accent:${p.color}">
-      <div class="top"><div><h4>${p.name}</h4><span class="sub">${p.validDates}</span></div><div class="amount">${money(r.amount)}</div></div>
+      <div class="top"><div><h4>${p.name}</h4><span class="sub">${p.validDates}</span></div><div class="amount">${programValueText(p,r)}</div></div>
       <div class="metrics"><div class="metric"><strong>${r.count}</strong><span>ELIGIBLE / COUNTED</span></div><div class="metric"><strong>${r.status}</strong><span>STATUS</span></div></div>
-      ${r.amount>0&&p.pdf?`<a class="form-link" href="${p.pdf}" target="_blank" rel="noopener">View official rebate form</a>`:''}
+      ${qualifiesForPrint(p,r)?`<a class="form-link" href="${p.pdf}" target="_blank" rel="noopener">View official rebate form</a>`:''}
       ${r.extra.length?`<div class="pill yes">${r.extra.join(' • ')}</div>`:''}
       <ul>${p.notes.map(n=>`<li>${n}</li>`).join('')}</ul>
     </article>`;
@@ -307,7 +326,7 @@ function render(models){
       let r=results[p.id],x=r.matches[i];
       if(!x)return '<td><span class="pill no">Not listed</span></td>';
       let counted=r.counts[i];
-      let msg=p.id==='commercial'&&r.amount===0?'Listed; pair incomplete':counted?(x.countValue>1?`Eligible / counts as ${x.countValue}`:'Eligible / counted'):'Eligible / count limited';
+      let msg=(p.rules&&p.rules.washer&&Array.isArray(p.rules.dryers)&&r.amount===0)?'Listed; pair incomplete':(p.rules&&p.rules.rewardOnAnyEligibleModel)?'Eligible reward':counted?(x.countValue>1?`Eligible / counts as ${x.countValue}`:'Eligible / counted'):'Eligible / count limited';
       return `<td><span class="pill ${counted?'yes':'limited'}">${msg}</span><span class="sub">${x.category}</span></td>`;
     });
     return `<tr><td class="model">${m}</td>${cells.join('')}</tr>`;
@@ -321,11 +340,15 @@ function shortName(p){
   if(p.id==='monogram')return 'Monogram D&I';
   if(p.id==='labor-day-2026')return 'Labor Day';
   if(p.id==='profile-laundry-pair-2026')return 'Laundry Pair';
+  if(p.id==='commercial-q4-2026')return 'Commercial Laundry';
+  if(p.id==='fall-savings-2026')return 'Fall Savings';
+  if(p.id==='cafe-caraway-q4-2026')return 'Café x Caraway';
+  if(p.id==='profile-caraway-q4-2026')return 'Profile x Caraway';
   return p.name;
 }
 
 async function printEligibleForms(){
-  const eligible=lastActivePrograms.filter(p=>lastResults[p.id]?.amount>0 && p.pdf);
+  const eligible=lastActivePrograms.filter(p=>qualifiesForPrint(p,lastResults[p.id]));
   if(!eligible.length) return;
   trackEvent('print_eligible_rebate_forms',{...analyticsSnapshot(), forms_count:eligible.length});
   const popup=window.open('','_blank');

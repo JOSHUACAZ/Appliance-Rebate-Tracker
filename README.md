@@ -107,3 +107,12 @@ This build tracks page visits through GA4 plus anonymous custom events for `chec
 
 ## 2026-09-16 update
 Added GEPROLP26: $100 back on a qualifying washer + dryer pair, or one qualifying PFQ97 combo, active 2026-09-17 through 2026-09-30. Official form is included in rebates/ge-profile-laundry-pair-2026.pdf.
+
+## September 24, 2026 Q4 update
+Added four scheduled programs effective October 1, 2026:
+- BrandSource Fall Into Savings (GEFS26), October 1-21, up to $500.
+- GE Commercial Laundry Q4 (GECOMLAUQ426), October 1-December 31, $150 qualifying pair.
+- Cafe x Caraway Cookware (AMER262687), October 1-December 31, non-cash cookware reward.
+- GE Profile x Caraway Cookware (AMER262688), October 1-December 31, non-cash cookware reward; not stackable with other GE Appliances rebate or promotion.
+
+Non-cash reward programs are included in Print Eligible Rebate Forms when the entered package qualifies, but they are not added to the cash rebate total.
