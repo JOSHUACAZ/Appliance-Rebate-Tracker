@@ -1,10 +1,10 @@
 {
   "siteName": "ApplianceRebates.com",
-  "dataVersion": "2026-09-24-spencers-q4-rebates-v1",
+  "dataVersion": "2026-10-22-spencers-november-v1",
   "programs": [
     {
       "id": "cafe",
-      "name": "Caf\u00e9 Express Yourself",
+      "name": "Café Express Yourself",
       "validDates": "July 1, 2026 - December 31, 2026",
       "color": "#8b5e3c",
       "models": [
@@ -3322,135 +3322,135 @@
       "models": [
         {
           "model": "PGE29BYTFS",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "PGD29BYTFS",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "PAE28BYTFS",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "PAD28BYTFS",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "PJE23BYWFS",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "PJD23BYWFS",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "PHD23BYWFS",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "PVD28BYNFS",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "PXD22BYPFS",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CVE28DM5NS5",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CVE28DP2NS1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CVE28DP3ND1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CVE28DP4NW2",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CXE22DM5PS5",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CXE22DP2PS1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CXE22DP3PD1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CXE22DP4PW2",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CGE29DP2TS1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CGE29DP3TD1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CGE29DP4TW2",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CGE29DM5TS5",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CJE23DM5WS5",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CJE23DP2WS1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CJE23DP3WD1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CJE23DP4WW2",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CAE28DM5TS5",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CHE23DM5WS5",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CKE24RP2YS1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CKE24RP3YD1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CKE24RP4YW2",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CZE24RP2YS1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CZE24RP3YD1",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         },
         {
           "model": "CZE24RP4YW2",
-          "category": "Qualifying GE Profile / Caf\u00e9 Refrigerator"
+          "category": "Qualifying GE Profile / Café Refrigerator"
         }
       ],
       "tiers": {
@@ -3460,7 +3460,7 @@
         "maxBaseCount": 1
       },
       "notes": [
-        "$100 with purchase of one qualifying GE Profile or Caf\u00e9 refrigerator.",
+        "$100 with purchase of one qualifying GE Profile or Café refrigerator.",
         "Limit one rebate per code per household.",
         "Offer valid August 27 through September 16, 2026."
       ]
@@ -5018,7 +5018,7 @@
     },
     {
       "id": "cafe-caraway-q4-2026",
-      "name": "Caf\u00e9 x Caraway Cookware",
+      "name": "Café x Caraway Cookware",
       "validDates": "October 1, 2026 - December 31, 2026",
       "startDate": "2026-10-01",
       "endDate": "2026-12-31",
@@ -5031,55 +5031,55 @@
         "limit": 1
       },
       "notes": [
-        "Purchase one qualifying Caf\u00e9 induction appliance and choose one complimentary Caraway pan.",
+        "Purchase one qualifying Café induction appliance and choose one complimentary Caraway pan.",
         "Limit one cookware reward per household.",
-        "This offer can be combined with other Caf\u00e9 promotions.",
+        "This offer can be combined with other Café promotions.",
         "Claim deadline: January 31, 2027."
       ],
       "models": [
         {
           "model": "CHP90301TBB",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "CHP90302TSS",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "CHP90362TSS",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "CHP90361TBB",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "CHS900P2MS1",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "CHS900P4MW2",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "CHS90XP2MS1",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "CHS950P2MS1",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "CHS950P4MW2",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "CHS950P3MD1",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         },
         {
           "model": "C2S900P2MS1",
-          "category": "Eligible Caf\u00e9 induction appliance"
+          "category": "Eligible Café induction appliance"
         }
       ]
     },
@@ -5156,6 +5156,1663 @@
         {
           "model": "PHP6036DWBB",
           "category": "Eligible GE Profile induction appliance"
+        }
+      ]
+    },
+    {
+      "id": "brandsource-black-november-2026",
+      "name": "BrandSource Black November Savings",
+      "validDates": "November 4, 2026 - December 2, 2026",
+      "startDate": "2026-11-04",
+      "endDate": "2026-12-02",
+      "color": "#a72c43",
+      "pdf": "rebates/brandsource-black-november-2026.pdf",
+      "tiers": {
+        "1": 50,
+        "2": 100,
+        "3": 150,
+        "4": 200,
+        "5": 300,
+        "6": 500,
+        "7": 600,
+        "8": 800
+      },
+      "rules": {
+        "maxBaseCount": 8,
+        "limitPerCategory": 1,
+        "allInOneCountsAs": 2
+      },
+      "notes": [
+        "One qualifying model per category; qualifying washer/dryer combo counts as two appliances.",
+        "All eligible products must be purchased on one invoice at an authorized BrandSource dealer.",
+        "Claim deadline January 2, 2027."
+      ],
+      "models": [
+        {
+          "model": "CAE28DM5TS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CIC36LP2VS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CSB48WP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CXE22DP4PW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PHD23BYWFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PYE22KMKES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GSS25IYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GWE22JYMFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CFE28TP2MS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CIC36RP2VS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CSB48YP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CYE22TP2MS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PJD23BYWFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PYE22KYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GSS28NYYFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GZS22IMNES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CFE28TP3MD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CIP36NP2VS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVE28DM5NS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CYE22TP3MD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PJE23BYWFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GFE28GMKES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GSS28PYYFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GZS22IYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CFE28TP4MW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CJE23DM5WS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVE28DP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CYE22TP4MW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PVD28BYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GFE28GYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GTS22KGNRBB",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GZS24PYYFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CGE29DM5TS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CJE23DP2WS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVE28DP3ND1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PAD28BYTFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PVD28HYYFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GNE25JMKES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GTS22KGNRWW",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CGE29DP2TS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CJE23DP3WD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CVE28DP4NW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PAE28BYTFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PWE23KYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GNE25JYKFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GTS22KMNRES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CGE29DP3TD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CJE23DP4WW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CXE22DM5PS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PFE28KBLTS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PXD22BYPFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GNE27JMMES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GTS22KYNRFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CGE29DP4TW2",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CSB42WP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CXE22DP2PS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PFE28KYNFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PXD22HYYFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GNE27JYMFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GWE19JMLES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CHE23DM5WS5",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CSB42YP2NS1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "CXE22DP3PD1",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PGE29BYTFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "PYE22KBLTS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GSS25IMNES",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "GWE19JYLFS",
+          "category": "Refrigeration"
+        },
+        {
+          "model": "C2S900P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "C2Y486P4TW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGS700M2NS5",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGY366P3TD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHS950P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "GGS600AVFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "GRS600AVES",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGS930YPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "C2S950P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CES700P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGS700P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGY366P4TW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "GGF600AVBB",
+          "category": "Ranges"
+        },
+        {
+          "model": "GGS600AVWW",
+          "category": "Ranges"
+        },
+        {
+          "model": "GRS600AVFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PHS700AYFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "C2Y366P2TS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CES700P3MD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGS700P3MD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHS900P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "GGF600AVES",
+          "category": "Ranges"
+        },
+        {
+          "model": "GRF600AVBB",
+          "category": "Ranges"
+        },
+        {
+          "model": "GRS600AVWW",
+          "category": "Ranges"
+        },
+        {
+          "model": "PHS930YPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "C2Y366P3TD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CES700P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGS700P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHS900P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "GGF600AVSS",
+          "category": "Ranges"
+        },
+        {
+          "model": "GRF600AVES",
+          "category": "Ranges"
+        },
+        {
+          "model": "PB900YVFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PHS93XYPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "C2Y366P4TW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "CES750M2NS5",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGS750P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHS90XM2NS5",
+          "category": "Ranges"
+        },
+        {
+          "model": "GGF600AVWW",
+          "category": "Ranges"
+        },
+        {
+          "model": "GRF600AVSS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGB935YPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PRF700AYFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "C2Y486P2TS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CES750P2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGS750P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHS90XP2MS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "GGS500SVSS",
+          "category": "Ranges"
+        },
+        {
+          "model": "GRF600AVWW",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGF700AYFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PSS93BPTS",
+          "category": "Ranges"
+        },
+        {
+          "model": "CES750P4MW2",
+          "category": "Ranges"
+        },
+        {
+          "model": "CGY366P2TS1",
+          "category": "Ranges"
+        },
+        {
+          "model": "CHS950P3MD1",
+          "category": "Ranges"
+        },
+        {
+          "model": "GGS600AVES",
+          "category": "Ranges"
+        },
+        {
+          "model": "GRS500PVSS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PGS930BPTS",
+          "category": "Ranges"
+        },
+        {
+          "model": "PSS93YPFS",
+          "category": "Ranges"
+        },
+        {
+          "model": "CEP90361TBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CHP90301TBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "JEP5030DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PEP7030DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PEP9036DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PGP7030SLSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PGP9036SLSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PHP6030DWBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CEP90362TSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CHP90302TSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "JEP5036DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PEP7036DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PEP9036STSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PGP7036DLBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PHP9030DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PHP6036DWBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CGP95302MS1",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CHP90361TBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "JEP5036STSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PEP9030DTBB",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PHP9036STSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PGP7036SLSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "PHP9030STSS",
+          "category": "Cooktops"
+        },
+        {
+          "model": "CKS70DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTC912P2NS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90DP3ZD1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS70DM2NS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS90DP4ZW2",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PKD7000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD700RSZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CSB912P2VS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD70DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90DP4ZW2",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS90FP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PKS7000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD9000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CSB913M2VS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90DM2NS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90FP2NS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS70DP2NS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS90FP3ZD1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PT7800SHSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTS7000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CSB913P2VS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90DM22S5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90FP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS70DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS90FP4ZW2",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PT9800SHSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTS700LSZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CSB913P3VD1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90DP2NS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90FP3ND1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS90DM2NS5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS92DM22S5",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PT9900SWSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTS700RSZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CSB913P4VW2",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTD90FP3ZD1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CTS90DP2ZS1",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "JTD5000SVSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTD7000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "PTS9000SZSS",
+          "category": "Wall Ovens"
+        },
+        {
+          "model": "CDD220P3WD1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDP888M5VS5",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDT888P2VS1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT755SBVTS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDP715SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT670SGVBB",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT535PYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDP670SMVES",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDD220P4WW2",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDT828P2VS1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDT888P3VD1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT715SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDD415PYYFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT650SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT535PSRSS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDP670SGVWW",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDD420P2TS1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDT858P2VS1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDT888P4VW2",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT715SIYII",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT670SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT650SMVES",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT535PGRWW",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDF650SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDD420P3TD1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CDT858P3VD1",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDT795SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "PDP795SYVFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT670SMVES",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT595HYYFS",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDT535PGRBB",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "GDF650SMVES",
+          "category": "Dishwashers"
+        },
+        {
+          "model": "CVW73012MSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "CVW73612MSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "CVW93043PDS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "CVW93643PDS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "UVC9360SLSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "UVW93042PSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "UVW93642PSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "CVW73014MWM",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "CVW73614MWM",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "CVW93044PWM",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "CVW93644PWM",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "UVW9301SLSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "UVW9361SLSS",
+          "category": "Range Hoods"
+        },
+        {
+          "model": "ETW485ASWWB",
+          "category": "Washers"
+        },
+        {
+          "model": "GTW485ASWWB",
+          "category": "Washers"
+        },
+        {
+          "model": "PFW955SPWDS",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW600BSRWS",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW700BPTDG",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW705BSTWS",
+          "category": "Washers"
+        },
+        {
+          "model": "GFW655SPVDS",
+          "category": "Washers"
+        },
+        {
+          "model": "PFW870SPVRS",
+          "category": "Washers"
+        },
+        {
+          "model": "PFW955SPWGN",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW605BPRDG",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW700BSTWS",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW800BPWRS",
+          "category": "Washers"
+        },
+        {
+          "model": "GFW655SSVWW",
+          "category": "Washers"
+        },
+        {
+          "model": "PFW870SSVWW",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW600BPRDG",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW605BSRWS",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW705BPTDG",
+          "category": "Washers"
+        },
+        {
+          "model": "PTW805BPWRS",
+          "category": "Washers"
+        },
+        {
+          "model": "ETD48EASWWB",
+          "category": "Dryers"
+        },
+        {
+          "model": "GFD65GSPVDS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFD87ESPVRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFD95ESPWDS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD60EBPRDG",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD70EBPTDG",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD80EBPTRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "ETD48GASWWB",
+          "category": "Dryers"
+        },
+        {
+          "model": "GFD65GSSVWW",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFD87ESSVWW",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFD95ESPWGN",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD60EBSRWS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD70EBSTWS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD80GBPTRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "GFD65ESPVDS",
+          "category": "Dryers"
+        },
+        {
+          "model": "GTD48EASWWB",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFD87GSPVRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFD95GSPWDS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD60GBPRDG",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD70GBPTDG",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD90EBPTRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "GFD65ESSVWW",
+          "category": "Dryers"
+        },
+        {
+          "model": "GTD48GASWWB",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFD87GSSVWW",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFD95GSPWGN",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD60GBSRWS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD70GBSTWS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PTD90GBPTRS",
+          "category": "Dryers"
+        },
+        {
+          "model": "PFQ97HSPVDS",
+          "category": "Washer/Dryer Combos",
+          "countValue": 2
+        },
+        {
+          "model": "PFQ97HSPVGN",
+          "category": "Washer/Dryer Combos",
+          "countValue": 2
+        },
+        {
+          "model": "PFQ97HSPVRS",
+          "category": "Washer/Dryer Combos",
+          "countValue": 2
+        }
+      ]
+    },
+    {
+      "id": "monogram-delivery-install-q4-2026",
+      "name": "Monogram Built-In Refrigeration D&I",
+      "validDates": "October 1, 2026 - December 31, 2026",
+      "startDate": "2026-10-01",
+      "endDate": "2026-12-31",
+      "color": "#555c61",
+      "pdf": "rebates/monogram-delivery-install-q4-2026.pdf",
+      "tiers": {},
+      "rules": {
+        "payout": 300,
+        "limit": 1,
+        "rewardOnAnyEligibleModel": false
+      },
+      "notes": [
+        "$300 rebate toward delivery and installation of a qualifying Monogram built-in refrigerator.",
+        "Authorized BrandSource dealer only.",
+        "Claim deadline January 31, 2027."
+      ],
+      "models": [
+        {
+          "model": "ZIR241NBRII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIR301NBRII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIW241NBWII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIR241NPNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIR361NBRII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIR301NPNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIR361NPRII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZISB360DNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIS420NNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZISB420DNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIS480NNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZISB480DNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZISS360DNSS",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZISS420NNSS",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZISS420DNSS",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZISS480NNSS",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZISS480DNSS",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIC303NPPII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIK303NPPII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIW303NPPII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIF181NBRII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIF241NBRII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIF181NPNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIF301NBRII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIF361NBRII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIF241NPNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIF301NPNII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIF361NPRII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIP364NBVII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIP364IPVII",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIC363NBVLH",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIC363IPVLH",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIC363NBVRH",
+          "category": "Monogram Built-In Refrigerator"
+        },
+        {
+          "model": "ZIC363IPVRH",
+          "category": "Monogram Built-In Refrigerator"
+        }
+      ]
+    },
+    {
+      "id": "profile-cafe-dishwasher-black-november-2026",
+      "name": "GE Profile / Café Dishwasher Bonus",
+      "validDates": "November 4, 2026 - December 2, 2026",
+      "startDate": "2026-11-04",
+      "endDate": "2026-12-02",
+      "color": "#6d527f",
+      "pdf": "rebates/profile-cafe-dishwasher-black-november-2026.pdf",
+      "tiers": {},
+      "rules": {
+        "payout": 100,
+        "limit": 1,
+        "fixedAnyEligibleModel": true
+      },
+      "notes": [
+        "$100 back with one qualifying GE Profile or Café dishwasher.",
+        "Authorized BrandSource dealer only.",
+        "Claim deadline January 2, 2027."
+      ],
+      "models": [
+        {
+          "model": "PDP755SBVTS",
+          "category": "GE Profile Dishwasher"
+        },
+        {
+          "model": "PDP755SYVFS",
+          "category": "GE Profile Dishwasher"
+        },
+        {
+          "model": "PDP795SYVFS",
+          "category": "GE Profile Dishwasher"
+        },
+        {
+          "model": "PDT755SBVTS",
+          "category": "GE Profile Dishwasher"
+        },
+        {
+          "model": "PDT755SYVFS",
+          "category": "GE Profile Dishwasher"
+        },
+        {
+          "model": "PDT795SBVTS",
+          "category": "GE Profile Dishwasher"
+        },
+        {
+          "model": "PDT795SYVFS",
+          "category": "GE Profile Dishwasher"
+        },
+        {
+          "model": "CDD220P2WS1",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDD220P3WD1",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDD420P2TS1",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDD420P3TD1",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDD420P4TW2",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDP888M5VS5",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDT828P2VS1",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDT858I6ZII",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDT858P2VS1",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDT858P3VD1",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDT858P4VW2",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDT888P2VS1",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDT888P3VD1",
+          "category": "Café Dishwasher"
+        },
+        {
+          "model": "CDT888P4VW2",
+          "category": "Café Dishwasher"
+        }
+      ]
+    },
+    {
+      "id": "profile-laundry-pedestal-extended-2026",
+      "name": "GE Profile Laundry Pedestal / Riser",
+      "validDates": "July 9, 2026 - November 3, 2026",
+      "startDate": "2026-07-09",
+      "endDate": "2026-11-03",
+      "color": "#6a4094",
+      "pdf": "rebates/profile-laundry-pedestal-extended-2026.pdf",
+      "tiers": {},
+      "rules": {
+        "pedestalCombinations": [
+          {
+            "washer": "PFQ97HSPVDS",
+            "dryer": null,
+            "pedestal": "GFR0728PTDS",
+            "payout": 230
+          },
+          {
+            "washer": "PFQ97HSPVRS",
+            "dryer": null,
+            "pedestal": "GFR0728PNRS",
+            "payout": 230
+          },
+          {
+            "washer": "PFQ97HSPVGN",
+            "dryer": null,
+            "pedestal": "GFR0728PWGN",
+            "payout": 230
+          },
+          {
+            "washer": "PFQ83HSSWWW",
+            "dryer": null,
+            "pedestal": "GFR0728SNWW",
+            "payout": 200
+          },
+          {
+            "washer": "PFW870SPVRS",
+            "dryer": "PFD87ESPVRS",
+            "pedestal": "GFP1528PNRS",
+            "payout": 300
+          },
+          {
+            "washer": "PFW870SPVRS",
+            "dryer": "PFD87ESPVRS",
+            "pedestal": "GFR0728PNRS",
+            "payout": 230
+          },
+          {
+            "washer": "PFW870SPVRS",
+            "dryer": "PFD87GSPVRS",
+            "pedestal": "GFP1528PNRS",
+            "payout": 300
+          },
+          {
+            "washer": "PFW870SPVRS",
+            "dryer": "PFD87GSPVRS",
+            "pedestal": "GFR0728PNRS",
+            "payout": 230
+          },
+          {
+            "washer": "PFW870SSVWW",
+            "dryer": "PFD87ESSVWW",
+            "pedestal": "GFP1528SNWW",
+            "payout": 280
+          },
+          {
+            "washer": "PFW870SSVWW",
+            "dryer": "PFD87ESSVWW",
+            "pedestal": "GFR0728SNWW",
+            "payout": 200
+          },
+          {
+            "washer": "PFW870SSVWW",
+            "dryer": "PFD87GSSVWW",
+            "pedestal": "GFP1528SNWW",
+            "payout": 280
+          },
+          {
+            "washer": "PFW870SSVWW",
+            "dryer": "PFD87GSSVWW",
+            "pedestal": "GFR0728SNWW",
+            "payout": 200
+          },
+          {
+            "washer": "PFW955SPWDS",
+            "dryer": "PFD95ESPWDS",
+            "pedestal": "GFP1528PTDS",
+            "payout": 300
+          },
+          {
+            "washer": "PFW955SPWDS",
+            "dryer": "PFD95ESPWDS",
+            "pedestal": "GFR0728PTDS",
+            "payout": 230
+          },
+          {
+            "washer": "PFW955SPWDS",
+            "dryer": "PFD95GSPWDS",
+            "pedestal": "GFP1528PTDS",
+            "payout": 300
+          },
+          {
+            "washer": "PFW955SPWDS",
+            "dryer": "PFD95GSPWDS",
+            "pedestal": "GFR0728PTDS",
+            "payout": 230
+          },
+          {
+            "washer": "PFW955SPWGN",
+            "dryer": "PFD95ESPWGN",
+            "pedestal": "GFP1528PWGN",
+            "payout": 300
+          },
+          {
+            "washer": "PFW955SPWGN",
+            "dryer": "PFD95ESPWGN",
+            "pedestal": "GFR0728PWGN",
+            "payout": 230
+          },
+          {
+            "washer": "PFW955SPWGN",
+            "dryer": "PFD95GSPWGN",
+            "pedestal": "GFP1528PWGN",
+            "payout": 300
+          },
+          {
+            "washer": "PFW955SPWGN",
+            "dryer": "PFD95GSPWGN",
+            "pedestal": "GFR0728PWGN",
+            "payout": 230
+          }
+        ],
+        "nonStackable": true
+      },
+      "notes": [
+        "Requires a qualifying UltraFast combo plus matching riser, or a qualifying washer/dryer pair plus matching pedestal or riser.",
+        "Payout $200-$300 depending on pedestal/riser model.",
+        "Cannot combine with other GE Appliances rebate or promotion.",
+        "Claim deadline December 3, 2026."
+      ],
+      "models": [
+        {
+          "model": "GFP1528PNRS",
+          "category": "Riser / Pedestal"
+        },
+        {
+          "model": "GFP1528PTDS",
+          "category": "Riser / Pedestal"
+        },
+        {
+          "model": "GFP1528PWGN",
+          "category": "Riser / Pedestal"
+        },
+        {
+          "model": "GFP1528SNWW",
+          "category": "Riser / Pedestal"
+        },
+        {
+          "model": "GFR0728PNRS",
+          "category": "Riser / Pedestal"
+        },
+        {
+          "model": "GFR0728PTDS",
+          "category": "Riser / Pedestal"
+        },
+        {
+          "model": "GFR0728PWGN",
+          "category": "Riser / Pedestal"
+        },
+        {
+          "model": "GFR0728SNWW",
+          "category": "Riser / Pedestal"
+        },
+        {
+          "model": "PFD87ESPVRS",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFD87ESSVWW",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFD87GSPVRS",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFD87GSSVWW",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFD95ESPWDS",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFD95ESPWGN",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFD95GSPWDS",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFD95GSPWGN",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFQ83HSSWWW",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFQ97HSPVDS",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFQ97HSPVGN",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFQ97HSPVRS",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFW870SPVRS",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFW870SSVWW",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFW955SPWDS",
+          "category": "Eligible Laundry"
+        },
+        {
+          "model": "PFW955SPWGN",
+          "category": "Eligible Laundry"
         }
       ]
     }

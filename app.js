@@ -1,4 +1,4 @@
-const APP_BUILD_VERSION = '2026.09.24.1';
+const APP_BUILD_VERSION = '2026.10.22.1';
 
 async function checkForSiteUpdate() {
   try {
@@ -265,11 +265,28 @@ function calcTieredCategory(models,p){
   return {count,amount,matches,counts,status:amount?'Eligible':'Not eligible',extra:matches.some((x,i)=>x&&counts[i]&&Number(x.countValue||1)>1)?['All-In-One counted as two appliances']:[]};
 }
 
+function calcFixedAny(models,p){
+ const matches=models.map(m=>lookup(p,m));
+ const counts=matches.map(Boolean);
+ const count=counts.filter(Boolean).length;
+ return {count,amount:count?Number(p.rules.payout||0):0,matches,counts,status:count?'Eligible':'Not eligible',extra:[]};
+}
+function calcPedestal(models,p){
+ const matches=models.map(m=>lookup(p,m));
+ const counts=matches.map(Boolean);
+ const options=p.rules.pedestalCombinations||[];
+ const qualifying=options.filter(o=>models.includes(o.washer)&&(!o.dryer||models.includes(o.dryer))&&models.includes(o.pedestal));
+ const best=qualifying.reduce((v,o)=>Math.max(v,o.payout),0);
+ return {count:best? (qualifying[0].dryer?3:2):0,amount:best,matches,counts,status:best?'Eligible — non-stackable':'Needs qualifying laundry + riser/pedestal',extra:best?['Cannot combine with any other GE Appliances rebate or promotion.']:[]};
+}
 function calculateProgram(models,p){
   if(p.id==='cafe') return calcCafe(models,p);
   if(p.id==='profile') return calcProfile(models,p);
   if(p.id==='commercial' || (p.rules&&p.rules.washer&&Array.isArray(p.rules.dryers))) return calcCommercial(models,p);
   if(p.id==='monogram') return calcMonogram(models,p);
+  if(p.rules&&p.rules.pedestalCombinations) return calcPedestal(models,p);
+  if(p.rules&&p.rules.fixedAnyEligibleModel) return calcFixedAny(models,p);
+  if(p.id==='monogram-delivery-install-q4-2026') return calcFixedAny(models,p);
   if(p.id==='profile-laundry-pair-2026') return calcLaundryPair(models,p);
   if(p.rules && p.rules.rewardOnAnyEligibleModel) return calcReward(models,p);
   if(p.rules && p.rules.limitPerCategory) return calcTieredCategory(models,p);
@@ -295,6 +312,12 @@ function render(models){
   programs.forEach(p=>results[p.id]=calculateProgram(models,p));
   lastResults=results;
   let total=Object.values(results).reduce((s,r)=>s+r.amount,0);
+  const exclusive=programs.filter(p=>p.rules?.nonStackable && results[p.id]?.amount>0);
+  if(exclusive.length){
+    const exclusiveSum=exclusive.reduce((s,p)=>s+results[p.id].amount,0);
+    const compatibleSum=total-exclusiveSum;
+    total=Math.max(compatibleSum,...exclusive.map(p=>results[p.id].amount));
+  }
   $('totalSavings').textContent=money(total);
   $('modelCount').textContent=models.length+' models entered';
   $('asOfDate').textContent='Active rebates as of '+new Date(todayLocalISO()+'T12:00:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
@@ -344,6 +367,10 @@ function shortName(p){
   if(p.id==='fall-savings-2026')return 'Fall Savings';
   if(p.id==='cafe-caraway-q4-2026')return 'Café x Caraway';
   if(p.id==='profile-caraway-q4-2026')return 'Profile x Caraway';
+  if(p.id==='brandsource-black-november-2026')return 'Black November';
+  if(p.id==='monogram-delivery-install-q4-2026')return 'Monogram D&I Q4';
+  if(p.id==='profile-cafe-dishwasher-black-november-2026')return 'Dishwasher Bonus';
+  if(p.id==='profile-laundry-pedestal-extended-2026')return 'Laundry Pedestal';
   return p.name;
 }
 

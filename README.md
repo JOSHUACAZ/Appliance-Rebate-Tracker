@@ -116,3 +116,8 @@ Added four scheduled programs effective October 1, 2026:
 - GE Profile x Caraway Cookware (AMER262688), October 1-December 31, non-cash cookware reward; not stackable with other GE Appliances rebate or promotion.
 
 Non-cash reward programs are included in Print Eligible Rebate Forms when the entered package qualifies, but they are not added to the cash rebate total.
+
+
+## October 22, 2026 update
+
+Added GEBN26 (11/4-12/2), MONOREFQ426 (10/1-12/31), GEPPKBN26 (11/4-12/2), and AMER262297 extended through 11/3. The latter requires matching laundry plus the appropriate riser/pedestal and is non-stackable. All four official PDFs are bundled. The existing print merging routine and analytics are retained.
