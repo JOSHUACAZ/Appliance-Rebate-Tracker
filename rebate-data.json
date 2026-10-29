@@ -1,6 +1,6 @@
 {
   "siteName": "ApplianceRebates.com",
-  "dataVersion": "2026-10-22-spencers-november-v1",
+  "dataVersion": "2026-10-29-spencers-revised-official-pdfs-v2",
   "programs": [
     {
       "id": "cafe",
@@ -5185,7 +5185,7 @@
       "notes": [
         "One qualifying model per category; qualifying washer/dryer combo counts as two appliances.",
         "All eligible products must be purchased on one invoice at an authorized BrandSource dealer.",
-        "Claim deadline January 2, 2027."
+        "Claim deadline January 2, 2027; serial number deadline February 1, 2027."
       ],
       "models": [
         {
@@ -6474,9 +6474,9 @@
     {
       "id": "profile-cafe-dishwasher-black-november-2026",
       "name": "GE Profile / Café Dishwasher Bonus",
-      "validDates": "November 4, 2026 - December 2, 2026",
+      "validDates": "November 4, 2026 - December 31, 2026",
       "startDate": "2026-11-04",
-      "endDate": "2026-12-02",
+      "endDate": "2026-12-31",
       "color": "#6d527f",
       "pdf": "rebates/profile-cafe-dishwasher-black-november-2026.pdf",
       "tiers": {},
@@ -6486,9 +6486,9 @@
         "fixedAnyEligibleModel": true
       },
       "notes": [
-        "$100 back with one qualifying GE Profile or Café dishwasher.",
-        "Authorized BrandSource dealer only.",
-        "Claim deadline January 2, 2027."
+        "$100 toward delivery or installation of one qualifying GE Profile or Café dishwasher.",
+        "Authorized BrandSource dealer only; qualifying dishwasher must be purchased with delivery or installation.",
+        "Claim deadline January 31, 2027; serial number deadline February 28, 2027."
       ],
       "models": [
         {

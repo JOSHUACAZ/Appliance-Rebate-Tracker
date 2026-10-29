@@ -1,0 +1,4 @@
+Replaced official PDFs for GEBN26 rv1 and GEPPKBN26 rv3.
+GEPPKBN26 extended to December 31, 2026; claim by January 31, 2027.
+GEBN26 dates/tiers remain unchanged.
+Existing model eligibility preserved; PDF extraction artifacts do not justify changing model codes.
